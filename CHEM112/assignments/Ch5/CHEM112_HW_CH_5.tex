@@ -1,4 +1,4 @@
-\documentclass[11pt, letterpaper]{article}
+\documentclass[10pt, letterpaper]{article}
 \usepackage[includehead, margin=0.75in]{geometry}
 \usepackage{fancyhdr}
 \usepackage[british]{babel}
@@ -23,14 +23,14 @@
 \fancypagestyle{plain}{
 \fancyhf{}
 \fancyhead[L]{CHEM 112 - M01 \\ Dr. Moulder}
-\fancyhead[R]{H. Ryott Glayzer \\ \today}
-\fancyhead[C]{Assignment \\ \textit{Chapter Name}}
+\fancyhead[R]{H. Ryott Glayzer \\ 20 February 2024}
+\fancyhead[C]{Assignment \\ \textit{Chapter 5: Advanced Theories of Bonding}}
 }
 
 
-\title{Assignment Name}
+\title{Chapter 5: Advanced Theories of Bonding}
 \author{H. Ryott Glayzer}
-\date{\today}
+\date{20 February 2024}
 
 
 \maketitle
@@ -46,17 +46,18 @@ and learning objectives for this class.
 \section{Valence Bond Theory}
 
 \subsection*{Q.1: Explain how $\sigma$ and $\pi$ bonds are similar and how they are different.}
-
+$\sigma$ bonds are bonds that form in s-orbitals, while $\pi$ bonds form in p-orbitals.
 
 \subsection*{Q.5: A friend tells you that \ce{N2} has three $\pi$ bonds due to the
 overlap of the three \textit{p}-orbitals in each Nitrogen atom. Do you agree?}
-
+\ce{N2} would have two $\pi$ bonds and a $\sigma$ bond.
 
 \section{Hybrid Atomic Orbitals}
 
 \subsection*{Q.9: Explain why a Carbon atom cannot form five bonds using $sp^{3}d$
 hybrid orbitals.}
-
+Carbon can only take four more valence shell electrons. 
+$sp^{3}$ are what Carbon has since it con only form four bonds.
 
 \subsection*{Q.13: Sulfuric acid is manufactured by the series of reactions:\\
 \ce{S8(s) + 8O2(g) -> 8SO2(g)}\\
@@ -66,13 +67,21 @@ Draw the Lewis Structure, predict the molecular geometry by VSEPR,
 and determine the hybridization of sulfur for the following:}
 
 \subsubsection*{a. Circular \ce{S8} model}
+\chemfig{\lewis{S}{.}{.}{}{}{.}{.}{}{}*8(-\lewis{S}{.}{.}{}{}{.}{.}{}{}-\lewis{S}{.}{.}{}{}{.}{.}{}{}-\lewis{S}{.}{.}{}{}{.}{.}{}{}-\lewis{S}{.}{.}{}{}{.}{.}{}{}-\lewis{S}{.}{.}{}{}{.}{.}{}{}-\lewis{S}{.}{.}{}{}{.}{.}{}{}-\lewis{S}{.}{.}{}{}{.}{.}{}{}-)}
+Tetrahedral; Bent, $sp^{3}$
 
 \subsubsection*{b. \ce{SO2} molecule}
+Bent, $sp^{2}$
+\chemfig{\lewis{O}{.}{.}{.}{.}{}{}{}{}~\lewis{S}{}{}{.}{.}{}{}{}{}-\lewis{O}{}{}{.}{.}{.}{.}{}{}}
 
 \subsubsection*{c. \ce{SO3} molecule}
+Trigonal Planar; $sp^{2}$
+\chemfig{\lewis{O}{.}{.}{.}{.}{.}{.}{}{}-[:-90]S(=[:0]\lewis{O}{}{}{.}{.}{.}{.}{}{})-[:-90]\lewis{O}{.}{.}{}{}{.}{.}{.}{.}}
+
 
 \subsubsection*{d. \ce{H2SO4} molecule}
-
+Tetrahedral, $sp^{3}$
+\chemfig{H-\lewis{O}{}{}{.}{.}{}{}{.}{.}-S(=[:90]\lewis{O}{.}{.}{}{}{.}{.}{}{})(=[:-90]\lewis{O}{.}{.}{}{}{.}{.}{}{})-\lewis{O}{}{}{.}{.}{}{}{.}{.}-H}
 
 \subsection*{Q.17: Strike-anywhere matches contain a layer of \ce{KClO3} and a
 layer of \ce{P4S3}.
@@ -85,50 +94,97 @@ to react vigorously, which sets fire to the wooden stem of the match.
 
 \subsubsection*{a. Write the Lewis structures for \ce{P4S3} and the \ce{ClO3-} ion.}
 
+\chemfig{P?[a]*6(-P(-[:90]S?[b])-P?[a]-[,2]S-P?[b]-S-[,2])}
+\quad
+\chemleft[
+\chemfig{O-[:30]Cl(-[:-90]O)-[:-30]O}
+\chemright]$^{-}$
 \subsubsection*{b. Describe the geometry about the P atoms, the S atom, and the Cl atom in these species}
+P: Trigonal Pyramidal;
+S:  Bent, two lone pairs;
+Cl: Trigonal Pyramidal
+
 
 \subsubsection*{c. Assign a hybridization to the P atoms, the S atom, and tho Cl atom in these species}
+$sp^{3}$ for all
+
 
 \subsubsection*{d. Determine the oxidization states and formal charge of the atoms in \ce{P4S3}
 and the \ce{ClO3-} ion.}
 
+
+\begin{center}
+	\begin{tabular}{|c||c|c|c|c|}
+		\hline
+        Atom & P & S & Cl & O \\
+		\hline \hline
+        Oxidation States & +1 & $-1\frac{1}{2}$ & +5 & -2 \\
+		\hline
+        Formal Charge & 0 & 0 & +2 & -1 \\
+	  \hline
+     \end{tabular}
+\end{center}
+
+
 \section{Multiple Bonds}
 
-\subsection*{Q.21: The bond energy of a C-C  single bond averages 347 kJ mol^{-1};
-that of a \chemfig{C~C} triple bond averages 839 kJ mol^{-1}.
+\subsection*{Q.21: The bond energy of a C-C  single bond averages 347 kJ mol$^{-1}$;
+that of a \chemfig{C~C} triple bond averages 839 kJ mol$^{-1}$.
 Explain why the triple bond is not three times as strong as the single bond.}
-
+A triple bond is made of of one $\sigma$ bond and two $\pi$ bonds.
+A $\sigma$ bond is stronger than a $\pi$ bond.
 
 \subsection*{Q.25: Identify the hybridization of the central atom in each of the following
 molecules and ions that contain multiple bonds:}
 
-\subsubsection*{a. \ce{ClNO}}
 
-\subsubsection*{b. \ce{CS2}}
+\begin{center}
+	\begin{tabular}{|c|c|c|c|c|c|c|}
+		\hline
+        \ce{ClNO} & \ce{CS2} & \ce{Cl2CO} & \ce{Cl2SO} & \ce{SO2F2} & \ce{XeO2F2} & \ce{ClOF2+} \\
+		\hline
+        $sp^{2}$ & $sp$ & $sp^{2}$ & $sp^{3}$ & $sp^{3}$ & $sp^{3}d$ & $sp^{3}$ \\
+		\hline
+	\end{tabular}
+\end{center}
 
-\subsubsection*{c. \ce{Cl2CO}}
-
-\subsubsection*{d. \ce{Cl2SO}}
-
-\subsubsection*{e. \ce{SO2F2}}
-
-\subsubsection*{f. \ce{XeO2F2}}
-
-\subsubsection*{g. \ce{ClOF2+}}
 
 
 \subsection*{Q.29: Draw the orbital diagram for carbon in \ce{CO2} showing how many carbon atom
 electrons ore in each orbital.}
 
+\begin{modiagram}[names]
+   \atom[Orbitals in Carbon]{left}{%
+    1s = {0; pair} ,
+    2s = {1; pair} ,
+    2p = {1.5; up, up }
+ }
+
+   \atom[Hybridized Carbon in \ce{CO2}]{right}{%
+    1s = {0; up} ,
+    2s = {1; up} ,
+    2p = {1.5; up, up }
+ }
+\end{modiagram}
+
+
+
+These are: (sp: up), (sp: up), (2p: up), (2p: up), but I can't figure out the \LaTeX for it
 
 \section{Molecular Orbital Theory}
 
 \subsection*{Q.33: Can a molecule with an odd number of electrons ever be diamagnetic?
 Explain why or why not.}
 
+No. 
+An odd number of electrons will always be paramagnetic.
 
 \subsection*{Q.37: Explain why an electron in the bonding molecular orbital in the \ce{H2}
 molecule has a lower energy than an electron in the 1\textit{s} atomic orbital hydrogen atoms.}
+
+The pairing of the two bonding electrons lowers the system's energy compared to a lone atom.
+
+
 
 
 \\
@@ -148,7 +204,7 @@ molecule has a lower energy than an electron in the 1\textit{s} atomic orbital h
 		\hline
 		\textbf{Points Possible} & \textbf{Points Earned} & \textbf{Score} \\
 		\hline
-		32 & X & X/32 \\
+		32 & _ & __/32 \\
 		\hline
 	\end{tabular}
 \end{center}

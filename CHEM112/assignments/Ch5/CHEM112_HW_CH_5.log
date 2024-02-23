@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.4)  20 FEB 2024 14:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.4)  23 FEB 2024 09:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,8 +8,8 @@ entering extended mode
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -1104,12 +1104,12 @@ LaTeX Font Info:    ... okay on input line 21.
 * \topmargin=-18.06749pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=59.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1151,7 +1151,7 @@ File: ot1cmsmf.fd 2021/06/22
 LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <14.4> not available
 (Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 39.
 
-LaTeX Font Info:    Font shape `OT1/xcmss/m/it' in size <10.95> not available
+LaTeX Font Info:    Font shape `OT1/xcmss/m/it' in size <10> not available
 (Font)              Font shape `OT1/xcmss/m/sl' tried instead on input line 43.
 
 LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <12> not available
@@ -1172,98 +1172,163 @@ LaTeX Font Warning: Font shape `OT1/xcmss/b/it' in size <12> not available
 LaTeX Font Info:    Font shape `OT1/xcmss/bx/it' in size <12> not available
 (Font)              Font shape `OT1/xcmss/bx/sl' tried instead on input line 52.
 
-LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 68.
+LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <10> not available
+(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 69.
+
+
+LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <7> not available
+(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 69.
+
+
+LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <5> not available
+(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 69.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 25.2842pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.2842pt}.
+(fancyhdr)                Make it at least 22.54448pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.54448pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-13.2842pt}.
+(fancyhdr)                \addtolength{\topmargin}{-10.54448pt}.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-]
-./CHEM112_HW_CH_5.tex:99: Missing $ inserted.
-<inserted text> 
-                $
-l.99 ...three times as strong as the single bond.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+] [2]
 
-./CHEM112_HW_CH_5.tex:99: Missing $ inserted.
-<inserted text> 
-                $
-l.99 ...three times as strong as the single bond.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (491.76985pt too wide) in paragraph at lines 99--99
-[]\OT1/xcmss/bx/n/12 Q.21: The bond en-ergy of a C-C sin-gle bond av-er-ages 347 kJ mol$[]\OT1/cmsmf/m/n/12 ; \OML/cmssm/m/it/12 thatofa[]triplebondaverages\OT1/cmsmf/m/n/12 839\OML/cmssm/m/it/12 kJmol[]:Explainwhythetriplebondisnotthreetimesasstrongasthesinglebond:$ 
- []
-
-
-./CHEM112_HW_CH_5.tex:135: LaTeX Error: There's no line here to end.
+./CHEM112_HW_CH_5.tex:191: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 \;
+l.191 \;
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
-./CHEM112_HW_CH_5.tex:138: Misplaced \noalign.
+./CHEM112_HW_CH_5.tex:194: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.138 \hline
+l.194 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-./CHEM112_HW_CH_5.tex:141: LaTeX Error: There's no line here to end.
+./CHEM112_HW_CH_5.tex:197: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.141 \;
+l.197 \;
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--199
 
  []
 
+./CHEM112_HW_CH_5.tex:207: Missing $ inserted.
+<inserted text> 
+                $
+l.207 		32 & _
+               & __/32 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CHEM112_HW_CH_5.tex:207: Missing { inserted.
+<to be read again> 
+                   \unskip 
+l.207 		32 & _ &
+                 __/32 \\
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./CHEM112_HW_CH_5.tex:207: Missing } inserted.
+<inserted text> 
+                }
+l.207 		32 & _ &
+                 __/32 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./CHEM112_HW_CH_5.tex:207: Missing $ inserted.
+<inserted text> 
+                $
+l.207 		32 & _ &
+                 __/32 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./CHEM112_HW_CH_5.tex:207: Missing $ inserted.
+<inserted text> 
+                $
+l.207 		32 & _ & _
+                  _/32 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./CHEM112_HW_CH_5.tex:207: Missing { inserted.
+<to be read again> 
+                   _
+l.207 		32 & _ & __
+                   /32 \\
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./CHEM112_HW_CH_5.tex:208: Missing } inserted.
+<inserted text> 
+                }
+l.208 		\hline
+              
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./CHEM112_HW_CH_5.tex:208: Missing $ inserted.
+<inserted text> 
+                $
+l.208 		\hline
+              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 [3] (./CHEM112_HW_CH_5.aux) ) 
 Here is how much of TeX's memory you used:
- 25903 strings out of 477985
- 580721 string characters out of 5840059
- 1876388 words of memory out of 5000000
- 45666 multiletter control sequences out of 15000+600000
- 521447 words of font info for 65 fonts, out of 8000000 for 9000
+ 26203 strings out of 477985
+ 588386 string characters out of 5840059
+ 1905388 words of memory out of 5000000
+ 45960 multiletter control sequences out of 15000+600000
+ 524713 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,12n,103p,470b,808s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx12.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssmi10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmsssy10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmsssy8.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssxi12.pfb>
-Output written on CHEM112_HW_CH_5.pdf (3 pages, 138762 bytes).
+ 99i,20n,103p,530b,1675s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx12.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx8.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssmi10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssmi5.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssmi7.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmsssy10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmsssy7.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmsssy8.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssxi12.pfb>
+Output written on CHEM112_HW_CH_5.pdf (3 pages, 171530 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 97 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
