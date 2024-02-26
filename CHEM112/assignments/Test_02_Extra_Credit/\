@@ -1,0 +1,251 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[includehead, margin=0.75in]{geometry}
+\usepackage{fancyhdr}
+\usepackage[british]{babel}
+\usepackage{sansmathfonts}
+\usepackage{soul}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage{lewis}
+\usepackage{siunitx}
+\usepackage{textgreek}
+\usepackage{mhchem}
+\usepackage{modiagram}
+\usepackage{tikzorbital}
+\usepackage{chemfig}
+\usepackage{xspace}
+\definecolor{error}{rgb}{255,255,0}
+\newcommand{\degree}{\ensuremath{{}^{\circ}}\xspace}
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \fancyhead[L]{CHEM 112 - M01 \\ Dr. Moulder}
+  \fancyhead[R]{H. Ryott Glayzer \\ \today}
+  \fancyhead[C]{\huge{Exam II Makeup Questions}}
+}
+
+\title{Exam II Makeup Questions}
+\author{H. Ryott Glayzer}
+\date{\today}
+
+
+\maketitle
+
+
+\section*{Notice of ADA Accommodation and Methods}
+I have an ADA accommodation to do my assignment on paper.
+This document is a utilization of that accommodation.
+This assignment will utilize questions from the textbook,
+\textit{Chemistry: Atoms First, 2e}, to practice the skills
+and learning objectives for this class.
+
+
+
+
+\section*{5. Calculate the velocity of electrons with de Broglie wavelengths of 285 nm.
+(de Broglie equation: $\lambda = \frac{h}{mv}$)}
+
+The equation 
+\[
+	\lambda = \frac{h}{mv}
+\]
+is accurate for non-relativistic velocities.
+For relativistic velocities, the equation 
+\[
+	\frac{1}{\lambda_B} = \frac{mv}{h \sqrt{1-\frac{v^{2}}{c^{2}}}}
+\]
+is more accurate.
+I will determine the velocity of electrons with de Broglie wavelengths of 285 nm 
+using both of these equations.
+
+
+\subsection*{Calculating the de Broglie Wavelength with the Non-Relativistic Equation}
+For the non-relativistic equation, we will first consider that the mass of an electron
+is given to be 9.1094 x 10$^{-31}$ kg.
+The non-relativistic equation:
+\[
+	\lambda = \frac{h}{mv}
+\]
+can be rewritten:
+\[
+	h = mv\lambda.
+\]
+To determine the velocity, we can rearrange the equation to give the velocity:
+\[
+	v = \frac{h}{m\lambda}.
+\]
+Substituting the variables with known values, with the knowledge that
+$\qty{1}{\joule} = \qty{1}{\kilo\gram\square\metre\per\square\second}$,
+gives:
+\[
+	v = \frac
+	{\qty[mode=text]{6.63e-34}{\kilo\gram\square\metre\per\square\second\second}}
+	{\qty[mode=text]{9.1094e-31}{\kilo\gram}\times\qty[mode=text]{2.85e-7}{\metre}}.
+\]
+This gives:
+\[
+	v \unit{\metre\per\second} = \frac
+	{\qty[mode=text]{6.63e-34}{\kilo\gram\square\metre\per\second}}
+	{\qty[mode=text]{2.596179e-37}{\kilo\gram\metre}}
+\]
+which provides the value:
+\[
+	v = \qty{2.553753035e3}{\metre\per\second} = \qty{2.553e3}{\metre\per\second}
+\]
+This value is closest to multiple choice option 
+\textbf{D: \qty[mode=text]{2.552e3}{\metre\per\second}}.
+
+\subsection*{Calculating the de Broglie wavelength using the Proper Relativistic Equation}
+The de Broglie wavelength of a particle is a wavelength that determines the probability
+density of the particle being found at a specific point $q$ in its configuration space.
+This is important in quantum mechanics. 
+In the context of General Chemistry I, the de Broglie wavelength is defined in our 
+textbook only as a characteristic of particles and other bodies.
+The relativistic definition of the de Broglie wavelength is:
+\[
+	\lambda_B = \frac{h}{p},
+\]
+where $\lambda_B$ represents the de Broglie wavelength of the particle,
+$h$ represents the Planck constant,
+which has the value \SI{6.62607015e-34}{\joule\second},
+and $p$ represents the relativistic momentum of the particle, defined as
+\[
+	p = \frac{mv}{\sqrt{1-\frac{v^{2}}{c^{2}}}},
+\]
+with $m$ representing the mass of the particle,
+$v$ representing the particle's velocity, 
+and $c$ representing the speed of light in a vacuum.
+The invariant mass of the electron is approximately
+$\SI{9.1093837015 \pm 0.0000000028 e-31}{\kilo\gram}$
+according to the NIST\@.
+The speed of light in a vacuum is defined as 
+$\SI{299792458}{\metre\per\second}$.
+
+Combining these equations gives the formula:
+\[
+	\lambda_B = \frac
+	{h}
+	{\frac{mv}{\sqrt{1-\frac{v^{2}}{c^{2}}}}}
+\]
+which simplifies to
+\[
+	\lambda_B = \frac
+	{h\sqrt{1-\frac{v^{2}}{c^{2}}}}
+	{mv}.
+\]
+This can be rearranged to 
+\[
+	\lambda_B m v = h \sqrt{1-\frac{v^{2}}{c^{2}}}.
+\]
+The following steps will solve the equation for velocity:
+\[
+	\frac{\lambda_B m v}{h} = \sqrt{1-\frac{v^2}{c^2}}
+\]
+\[
+	{(\frac{\lambda_B m v}{h})}^{2} = 
+	{(\sqrt{1 - \frac{v^2}{c^2}})}^{2}
+\]
+\\
+\[
+	\frac{\lambda_B^{2}m^{2}v^{2}}{h^{2}} = 1 - \frac{v^{2}}{c^{2}}
+\]
+\\
+\[
+	1 = \frac{\lambda_B^2 m^2 v^2}{h^2} + \frac{v^2}{c^2}	
+\]
+\\
+\[
+	1 = \frac{\lambda_B^2 m^2 v^2 c^2 + v^2 h^2}{h^2 c^2}
+\]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% \section*{7. What element is theoretically the smallest of all on the periodic table?}
+
+
+
+% \section*{11. What wavelength would the hydrogen Rydberg line give for the electronic
+% transition $n_1 = 2$ and $n_2 = 5$?}
+
+
+
+% \section*{13. Which is the most correct Lewis structure for \ce{N2O}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                                 Copypasta                               %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Table for questions with multiple parts
+
+% \begin{center}
+% 	\begin{tabular}{|c|c|c|c|c|}
+% 		\hline
+% 		_ & _ & _ & _ & _ \\
+% 		\hline
+% 		_ & _ & _ & _ & _ \\
+% 		\hline
+% 	\end{tabular}
+% \end{center}
