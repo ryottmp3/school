@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.4)  26 FEB 2024 12:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.4)  27 FEB 2024 22:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,8 +8,8 @@ entering extended mode
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+(/usr/share/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -958,6 +958,25 @@ Package: modiagram 2020/11/08 v0.3a easy creation of molecular orbital diagrams
 \l__modiagram_AO_pz_shift_dim=\dimen324
 \g__modiagram_AO_name_int=\count324
 \l_energy_axis_dim=\dimen325
+) (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen326
+\lightrulewidth=\dimen327
+\cmidrulewidth=\dimen328
+\belowrulesep=\dimen329
+\belowbottomsep=\dimen330
+\aboverulesep=\dimen331
+\abovetopsep=\dimen332
+\cmidrulesep=\dimen333
+\cmidrulekern=\dimen334
+\defaultaddspace=\dimen335
+\@cmidla=\count325
+\@cmidlb=\count326
+\@aboverulesep=\dimen336
+\@belowrulesep=\dimen337
+\@thisruleclass=\count327
+\@lastruleclass=\count328
+\@thisrulewidth=\dimen338
 ) (/usr/share/texmf-dist/tex/latex/tikzorbital/tikzorbital.sty
 Package: tikzorbital 2012/12/05 draw atomic orbitals and molecular diagrams with tikz
  (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
@@ -1011,22 +1030,23 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \pgf@layerboxsaved@foreground=\box98
 ) (/usr/share/texmf-dist/tex/generic/chemfig/chemfig.sty (/usr/share/texmf-dist/tex/generic/chemfig/chemfig.tex (/usr/share/texmf-dist/tex/generic/simplekv/simplekv.tex
 Package: simplekv 2022/10/01 v0.2a Simple keyval package (CT)
-) (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
-File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen326
-\pgfarrowlength=\dimen327
-\pgfarrowwidth=\dimen328
-\pgfarrowlinewidth=\dimen329
 )
-\CF_cnt_atomgroup=\count325
-\CF_cnt_group=\count326
-\CF_cnt_atom=\count327
-\CF_cnt_cycle=\count328
-\CF_cnt_cyclebonds=\count329
-\CF_cnt_compound=\count330
-\CF_dim=\dimen330
-\CF_arrowsize=\dimen331
-\CF_zero=\dimen332
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen339
+\pgfarrowlength=\dimen340
+\pgfarrowwidth=\dimen341
+\pgfarrowlinewidth=\dimen342
+)
+\CF_cnt_atomgroup=\count329
+\CF_cnt_group=\count330
+\CF_cnt_atom=\count331
+\CF_cnt_cycle=\count332
+\CF_cnt_cyclebonds=\count333
+\CF_cnt_compound=\count334
+\CF_dim=\dimen343
+\CF_arrowsize=\dimen344
+\CF_zero=\dimen345
 \CF_box=\box99
 \CF_boxstuff=\box100
 \CF_testbox=\box101
@@ -1034,52 +1054,60 @@ File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \CF_substtoks=\toks43
 )
 Package: chemfig 2023/02/18 v1.6d Draw molecule with an easy syntax (CT)
-)
-(/usr/share/texmf-dist/tex/latex/tools/xspace.sty
+) (/usr/share/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
-LaTeX Font Info:    Trying to load font information for OT1+xcmss on input line 33.
+) (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+LaTeX Font Info:    Trying to load font information for OT1+xcmss on input line 45.
  (/usr/share/texmf-dist/tex/latex/sansmathfonts/ot1xcmss.fd
 File: ot1xcmss.fd 2021/06/22
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmssm/m/it on input line 33.
-LaTeX Font Info:    Trying to load font information for OML+cmssm on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmssm/m/it on input line 45.
+LaTeX Font Info:    Trying to load font information for OML+cmssm on input line 45.
  (/usr/share/texmf-dist/tex/latex/sansmathfonts/omlcmssm.fd
 File: omlcmssm.fd 2019/04/04
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsssy/m/n on input line 33.
-LaTeX Font Info:    Trying to load font information for OMS+cmsssy on input line 33.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsssy/m/n on input line 45.
+LaTeX Font Info:    Trying to load font information for OMS+cmsssy on input line 45.
  (/usr/share/texmf-dist/tex/latex/sansmathfonts/omscmsssy.fd
 File: omscmsssy.fd 2019/04/04
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmssex/m/n on input line 33.
-LaTeX Font Info:    Trying to load font information for OMX+cmssex on input line 33.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmssex/m/n on input line 45.
+LaTeX Font Info:    Trying to load font information for OMX+cmssex on input line 45.
  (/usr/share/texmf-dist/tex/latex/sansmathfonts/omxcmssex.fd
 File: omxcmssex.fd 2021/06/22
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/xcmss/m/n on input line 33.
-LaTeX Font Info:    Trying to load font information for U+xcmss on input line 33.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/xcmss/m/n on input line 45.
+LaTeX Font Info:    Trying to load font information for U+xcmss on input line 45.
  (/usr/share/texmf-dist/tex/latex/sansmathfonts/uxcmss.fd
 File: uxcmss.fd 2021/06/22
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 33.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 33.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 45.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 45.
  (/usr/share/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    ... okay on input line 45.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1100,12 +1128,12 @@ LaTeX Font Info:    ... okay on input line 33.
 * \topmargin=-18.06749pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=44.0pt
+* \marginparwidth=59.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1115,18 +1143,28 @@ LaTeX Font Info:    ... okay on input line 33.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 45.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/ssmsa/m/n on input line 45.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/ssmsa/m/n on input line 45.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 45.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/ssmsb/m/n on input line 45.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/ssmsb/m/n on input line 45.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count331
-\scratchdimen=\dimen333
+\scratchcounter=\count335
+\scratchdimen=\dimen346
 \scratchbox=\box103
-\nofMPsegments=\count332
-\nofMParguments=\count333
+\nofMPsegments=\count336
+\nofMParguments=\count337
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count334
-\MPscratchDim=\dimen334
-\MPnumerator=\count335
-\makeMPintoPDFobject=\count336
+\MPscratchCnt=\count338
+\MPscratchDim=\dimen347
+\MPnumerator=\count339
+\makeMPintoPDFobject=\count340
 \everyMPtoPDFconversion=\toks45
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1137,380 +1175,694 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
 
-Package chemgreek Info: Activating mapping `textgreek' on line 33.
+Package chemgreek Info: Activating mapping `textgreek' on line 45.
 
 
 
-./main.tex:88: LaTeX Error: Can be used only in preamble.
+./main.tex:100: LaTeX Error: Can be used only in preamble.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 \begin{document}
-                     
+l.100 \begin{document}
+                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-LaTeX Font Info:    Trying to load font information for OT1+cmsmf on input line 102.
+LaTeX Font Info:    Trying to load font information for OT1+cmsmf on input line 114.
 (/usr/share/texmf-dist/tex/latex/sansmathfonts/ot1cmsmf.fd
 File: ot1cmsmf.fd 2021/06/22
 )
+LaTeX Font Info:    Trying to load font information for U+ssmsa on input line 114.
+ (/usr/share/texmf-dist/tex/latex/sansmathfonts/ussmsa.fd
+File: ussmsa.fd 2019/04/04
+)
+LaTeX Font Info:    Trying to load font information for U+ssmsb on input line 114.
+ (/usr/share/texmf-dist/tex/latex/sansmathfonts/ussmsb.fd
+File: ussmsb.fd 2019/04/04
+)
 
-LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <17.28> not available
-(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 105.
+LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <14.4> not available
+(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 117.
 
 
-./main.tex:117: LaTeX Error: There's no line here to end.
+./main.tex:129: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117 \bigskip
+l.129 \bigskip
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./main.tex:119: LaTeX Error: There's no line here to end.
+./main.tex:131: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119 \bigskip
+l.131 \bigskip
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./main.tex:121: LaTeX Error: There's no line here to end.
+./main.tex:133: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.121 \bigskip
+l.133 \bigskip
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./main.tex:123: LaTeX Error: There's no line here to end.
+./main.tex:135: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.123 
+l.135 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <12> not available
-(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 153.
+LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 165.
 
 
-LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <20.74> not available
-(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 153.
+LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <17.28> not available
+(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 165.
 
 
-LaTeX Font Warning: Font shape `OT1/xcmss/b/sc' in size <12> not available
-(Font)              Font shape `OT1/xcmss/bx/sc' tried instead on input line 179.
+LaTeX Font Warning: Font shape `OT1/xcmss/b/sc' in size <10.95> not available
+(Font)              Font shape `OT1/xcmss/bx/sc' tried instead on input line 191.
 
 
-LaTeX Font Warning: Font shape `OT1/xcmss/b/sc' in size <20.74> not available
-(Font)              Font shape `OT1/xcmss/bx/sc' tried instead on input line 179.
+LaTeX Font Warning: Font shape `OT1/xcmss/b/sc' in size <17.28> not available
+(Font)              Font shape `OT1/xcmss/bx/sc' tried instead on input line 191.
 
 
-Overfull \hbox (7.7226pt too wide) in paragraph at lines 179--179
- \OT1/xcmss/m/n/12 Rutherfordium 
+Overfull \hbox (3.24106pt too wide) in paragraph at lines 191--191
+ \OT1/xcmss/m/n/10.95 Rutherfordium 
  []
 
 
-Overfull \hbox (0.56296pt too wide) in paragraph at lines 189--189
- \OT1/xcmss/m/n/12 Molybdenum 
+Overfull \hbox (2.70876pt too wide) in paragraph at lines 227--227
+ \OT1/xcmss/m/n/10.95 Darmstadtium 
  []
 
 
-Overfull \hbox (7.16429pt too wide) in paragraph at lines 215--215
- \OT1/xcmss/m/n/12 Darmstadtium 
- []
-
-
-Overfull \hbox (1.86852pt too wide) in paragraph at lines 221--221
- \OT1/xcmss/m/n/12 Roentgenium 
- []
-
-
-Overfull \hbox (9.19897pt too wide) in paragraph at lines 310--310
- \OT1/xcmss/m/n/12 Praseodymium 
- []
-
-
-Overfull \hbox (0.95186pt too wide) in paragraph at lines 327--327
- \OT1/xcmss/m/n/12 Protactinium 
- []
-
-
-Overfull \hbox (1.54211pt too wide) in paragraph at lines 337--337
- \OT1/xcmss/m/n/12 Mendelevium 
- []
-
-
-Overfull \hbox (7.40143pt too wide) in paragraph at lines 371--371
- \OT1/xcmss/bx/n/20.74 Symbol 
+Overfull \hbox (4.62502pt too wide) in paragraph at lines 322--322
+ \OT1/xcmss/m/n/10.95 Praseodymium 
  []
 
 
 LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <24.88> not available
-(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 377.
+(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 389.
 
 
 LaTeX Font Warning: Font shape `OT1/xcmss/b/it' in size <24.88> not available
-(Font)              Font shape `OT1/xcmss/bx/it' tried instead on input line 377.
+(Font)              Font shape `OT1/xcmss/bx/it' tried instead on input line 389.
 
 LaTeX Font Info:    Font shape `OT1/xcmss/bx/it' in size <24.88> not available
-(Font)              Font shape `OT1/xcmss/bx/sl' tried instead on input line 377.
+(Font)              Font shape `OT1/xcmss/bx/sl' tried instead on input line 389.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 33.40004pt, for example:
-(fancyhdr)                \setlength{\headheight}{33.40004pt}.
+(fancyhdr)                Make it at least 26.53336pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.53336pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-21.40004pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.53336pt}.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 
-LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 400.
+LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <12> not available
+(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 440.
 
-LaTeX Font Info:    Trying to load font information for TS1+xcmss on input line 421.
-LaTeX Font Info:    No file TS1xcmss.fd. on input line 421.
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--441
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+xcmss on input line 454.
+LaTeX Font Info:    No file TS1xcmss.fd. on input line 454.
 
 LaTeX Font Warning: Font shape `TS1/xcmss/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `texttimes' on input line 421.
+(Font)              for symbol `textbullet' on input line 454.
 
+
+LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <10> not available
+(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 469.
+
+./main.tex:471: Missing $ inserted.
+<inserted text> 
+                $
+l.471     \qquad\qquad\quad\|
+                             \;\:\quad\| & Potassium        & \ce{K ->   K^{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:471: Missing $ inserted.
+<inserted text> 
+                $
+l.471     \qquad\qquad\quad\|\;\:\quad\| &
+                                           Potassium        & \ce{K ->   K^{...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.tex:472: Missing $ inserted.
+<inserted text> 
+                $
+l.472     \qquad\qquad\quad\|
+                             \;\:\quad\| & Barium           & \ce{Ba -> Ba^{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:472: Missing $ inserted.
+<inserted text> 
+                $
+l.472     \qquad\qquad\quad\|\;\:\quad\| &
+                                           Barium           & \ce{Ba -> Ba^{...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.tex:473: Missing $ inserted.
+<inserted text> 
+                $
+l.473      \qquad\qquad\quad\|
+                              \;\:\quad\|& Calcium          & \ce{Ca -> Ca^{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:473: Missing $ inserted.
+<inserted text> 
+                $
+l.473      \qquad\qquad\quad\|\;\:\quad\|&
+                                           Calcium          & \ce{Ca -> Ca^{...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.tex:474: Missing $ inserted.
+<inserted text> 
+                $
+l.474     \qquad\qquad\quad\|
+                             \quad---- & Sodium           & \ce{Na -> Na^{+}...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:474: Missing $ inserted.
+<inserted text> 
+                $
+l.474     \qquad\qquad\quad\|\quad---- &
+                                         Sodium           & \ce{Na -> Na^{+}...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.tex:475: Missing $ inserted.
+<inserted text> 
+                $
+l.475     \qquad\qquad\quad\|
+                              & Magnesium        & \ce{Mg -> Mg^{2+} + 2e-} ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:475: Missing $ inserted.
+<inserted text> 
+                $
+l.475     \qquad\qquad\quad\| &
+                                Magnesium        & \ce{Mg -> Mg^{2+} + 2e-} ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.tex:476: Missing $ inserted.
+<inserted text> 
+                $
+l.476      \qquad\qquad\quad\|
+                              & Aluminum         & \ce{Al -> Al^{3+} + 3e-} ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:476: Missing $ inserted.
+<inserted text> 
+                $
+l.476      \qquad\qquad\quad\|&
+                                Aluminum         & \ce{Al -> Al^{3+} + 3e-} ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.tex:477: Missing $ inserted.
+<inserted text> 
+                $
+l.477      \qquad\qquad\quad\|
+                              & Manganese        & \ce{Mn -> Mn^{2+} + 2e-} ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:477: Missing $ inserted.
+<inserted text> 
+                $
+l.477      \qquad\qquad\quad\|&
+                                Manganese        & \ce{Mn -> Mn^{2+} + 2e-} ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.tex:478: Missing $ inserted.
+<inserted text> 
+                $
+l.478      \qquad\qquad\quad\|
+                              & Zinc             & \ce{Zn -> Zn^{2+} + 2e-} ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:478: Missing $ inserted.
+<inserted text> 
+                $
+l.478      \qquad\qquad\quad\|&
+                                Zinc             & \ce{Zn -> Zn^{2+} + 2e-} ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.tex:479: Missing $ inserted.
+<inserted text> 
+                $
+l.479     \qquad\qquad\quad\|
+                              & Chromium         & \ce{Cr -> Cr^{3+} + 3e-} ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:479: Missing $ inserted.
+<inserted text> 
+                $
+l.479     \qquad\qquad\quad\| &
+                                Chromium         & \ce{Cr -> Cr^{3+} + 3e-} ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.tex:481: Missing $ inserted.
+<inserted text> 
+                $
+l.481    \qquad\|
+                   & Cadmium          & \ce{Cd -> Cd^{2+} + 2e-}    \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:481: Missing $ inserted.
+<inserted text> 
+                $
+l.481    \qquad\|  &
+                     Cadmium          & \ce{Cd -> Cd^{2+} + 2e-}    \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.tex:482: Missing $ inserted.
+<inserted text> 
+                $
+l.482    \qquad\|
+                   & Cobalt           & \ce{Co -> Co^{2+} + 2e-}    \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:482: Missing $ inserted.
+<inserted text> 
+                $
+l.482    \qquad\|  &
+                     Cobalt           & \ce{Co -> Co^{2+} + 2e-}    \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.tex:483: Missing $ inserted.
+<inserted text> 
+                $
+l.483    \qquad\|
+                   & Nickel           & \ce{Ni -> Ni^{2+} + 2e-}    \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:483: Missing $ inserted.
+<inserted text> 
+                $
+l.483    \qquad\|  &
+                     Nickel           & \ce{Ni -> Ni^{2+} + 2e-}    \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.tex:484: Missing $ inserted.
+<inserted text> 
+                $
+l.484   \qquad\|
+                   & Tin              & \ce{Sn -> Sn^{2+} + 2e-}    \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:484: Missing $ inserted.
+<inserted text> 
+                $
+l.484   \qquad\|   &
+                     Tin              & \ce{Sn -> Sn^{2+} + 2e-}    \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.tex:488: Missing $ inserted.
+<inserted text> 
+                $
+l.488      \qquad\qquad\qquad\quad\|
+                                    & Silver           & \ce{Ag -> Ag^{+}  +...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:488: Missing $ inserted.
+<inserted text> 
+                $
+l.488      \qquad\qquad\qquad\quad\|&
+                                      Silver           & \ce{Ag -> Ag^{+}  +...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.tex:489: Missing $ inserted.
+<inserted text> 
+                $
+l.489      \qquad\qquad\qquad\quad\|
+                                    & Mercury          & \ce{Hg -> Hg^{2+} +...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:489: Missing $ inserted.
+<inserted text> 
+                $
+l.489      \qquad\qquad\qquad\quad\|&
+                                      Mercury          & \ce{Hg -> Hg^{2+} +...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./main.tex:490: Missing $ inserted.
+<inserted text> 
+                $
+l.490      \qquad\qquad\qquad\quad\|
+                                    & Platinum         & \ce{Pt -> Pt^{2+} +...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:490: Missing $ inserted.
+<inserted text> 
+                $
+l.490      \qquad\qquad\qquad\quad\|&
+                                      Platinum         & \ce{Pt -> Pt^{2+} +...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[2
+
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 LaTeX Info: Symbol \textminus not provided by
             font family xcmss in TS1 encoding.
-            Default family used instead on input line 421.
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 421.
-(/usr/share/texmf-dist/tex/latex/base/ts1cmss.fd
+            Default family used instead on input line 535.
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 535.
+ (/usr/share/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 LaTeX Info: Symbol \textminus not provided by
             font family xcmss in TS1 encoding.
-            Default family used instead on input line 421.
+            Default family used instead on input line 535.
 LaTeX Info: Symbol \textminus not provided by
             font family xcmss in TS1 encoding.
-            Default family used instead on input line 421.
+            Default family used instead on input line 535.
 LaTeX Info: Symbol \textminus not provided by
             font family xcmss in TS1 encoding.
-            Default family used instead on input line 421.
+            Default family used instead on input line 535.
 LaTeX Info: Symbol \textminus not provided by
             font family xcmss in TS1 encoding.
-            Default family used instead on input line 427.
+            Default family used instead on input line 541.
 LaTeX Info: Symbol \textminus not provided by
             font family xcmss in TS1 encoding.
-            Default family used instead on input line 427.
+            Default family used instead on input line 541.
 LaTeX Info: Symbol \textminus not provided by
             font family xcmss in TS1 encoding.
-            Default family used instead on input line 427.
+            Default family used instead on input line 541.
 LaTeX Info: Symbol \textminus not provided by
             font family xcmss in TS1 encoding.
-            Default family used instead on input line 434.
- [2
-
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 488--490
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 497--499
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 523--525
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 529--531
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 533--535
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 550--553
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 550--553
-
- []
-
-[4] [5
+            Default family used instead on input line 548.
+ [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 616--623
+Underfull \hbox (badness 10000) in paragraph at lines 602--604
 
  []
 
-[6
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--613
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--639
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 643--645
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 647--649
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 664--667
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 664--667
+
+ []
+
+[5] [6
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 730--737
+
+ []
+
+[7
 
 ]
 
-LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <10> not available
-(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 627.
+LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <7> not available
+(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 741.
 
 
-./main.tex:644: LaTeX Error: There's no line here to end.
+./main.tex:758: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.644 N
+l.758 N
        ow, we connect each atom with the central atom with a single bond.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./main.tex:649: LaTeX Error: There's no line here to end.
+./main.tex:763: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.649 N
+l.763 N
        ow, we must create new bonds in the central atom to create double and...
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./main.tex:654: LaTeX Error: There's no line here to end.
+./main.tex:768: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.654 T
+l.768 T
        he \ce{N} atom on the end does not follow the octet rule.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./main.tex:660: LaTeX Error: There's no line here to end.
+./main.tex:774: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.660 T
+l.774 T
        his works, but there are resonance structures:
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./main.tex:665: LaTeX Error: There's no line here to end.
+./main.tex:779: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.665 a
+l.779 a
        nd
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./main.tex:670: LaTeX Error: There's no line here to end.
+./main.tex:784: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.670 N
+l.784 N
        ow, we must compute the formal charges of each of the above resonance...
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[7
+[8
 
 ]
 
-./main.tex:696: LaTeX Error: There's no line here to end.
+./main.tex:810: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.696 T
+l.810 T
        his version is close to multiple choice option \textbf{D}.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[8] [9
+[9] [10
 
 ]
 
-./main.tex:734: LaTeX Error: There's no line here to end.
+./main.tex:848: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.734 \\
+l.848 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./main.tex:735: LaTeX Error: There's no line here to end.
+./main.tex:849: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.735 
+l.849 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[10
-
-] [11
+[11
 
 ] [12
 
 ] [13
 
 ] [14
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 952--970
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 973--978
+
+ []
+
+[15
 
 ] (./main.aux)
 
@@ -1519,21 +1871,21 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 88 (\begingroup)
+### semi simple group (level 1) entered at line 100 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 26926 strings out of 477985
- 594857 string characters out of 5840059
+ 27948 strings out of 477985
+ 609799 string characters out of 5840059
  1970388 words of memory out of 5000000
- 46675 multiletter control sequences out of 15000+600000
- 530234 words of font info for 95 fonts, out of 8000000 for 9000
+ 47667 multiletter control sequences out of 15000+600000
+ 536804 words of font info for 124 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 102i,19n,104p,459b,858s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx12.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx17.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssbxcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssex10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssex8.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssmi10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssmi6.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssmi8.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmsssy10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmsssy6.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmsssy8.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssxi17.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb>
-Output written on main.pdf (14 pages, 206018 bytes).
+ 102i,19n,104p,459b,1016s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx12.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx17.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssbxcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssex10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssex8.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssmi10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssmi6.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssmi8.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssmi9.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmsssy10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmsssy6.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmsssy8.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmsssy9.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssxi17.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/ssmsam10.pfb>
+Output written on main.pdf (15 pages, 288052 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 178 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

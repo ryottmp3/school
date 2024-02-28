@@ -1,4 +1,4 @@
-\documentclass[12pt, letterpaper]{article}
+\documentclass[11pt, letterpaper]{article}
 \usepackage[includehead, margin=0.75in]{geometry}
 \usepackage{fancyhdr}
 \usepackage[british]{babel}
@@ -13,13 +13,25 @@
 \usepackage{textgreek}
 \usepackage{mhchem}
 \usepackage{modiagram}
+\usepackage{booktabs}
 \usepackage{tikzorbital}
 \usepackage{chemfig}
 \usepackage{xspace}
 \definecolor{error}{rgb}{255,255,0}
 \newcommand{\degree}{\ensuremath{{}^{\circ}}\xspace}
 \renewcommand{\familydefault}{\sfdefault}
-
+\usepackage{amssymb} % for harpoons
+\newcommand{\electron}[2]{{%
+        \newcommand*\up{\fbox{$\mathord\upharpoonleft\phantom{\downharpoonright}$}}%
+        \newcommand*\dn{\fbox{$\mathord\downharpoonleft\phantom{\upharpoonright}$}}%
+        \newcommand*\ud{\fbox{$\upharpoonleft\downharpoonright$}}%
+        \newcommand*\x{\fbox{$\phantom{\downharpoonright}\phantom{\downharpoonright}$}}%
+        \setlength\tabcolsep{0pt}% remove extra horizontal space from tabular
+        \begin{tabular}{c}#2\\[2pt]#1\end{tabular}%
+}}
+\DeclareSIUnit\atmosphere{atm}
+\DeclareSIUnit\torr{Torr}
+\DeclareSIUnit\mercury{Hg}
 
 \usetikzlibrary{shapes,calc}
 
@@ -378,11 +390,113 @@ Each problem will appear on a new page.
 
 \end{tikzpicture}
 
+\clearpage
+
+
+\begin{center}
+  \begin{minipage}[b]{0.3\textwidth}
+    \raggedright
+    \textbf{Temperature Conversions}\\
+    $\degree F = \frac{9}{5}\;\degree C + 32$\\
+    $\degree C = \frac{5}{9}\;\left(\degree F - 32 \right)$\\
+    $K = 273.15 + \degree C$\\
+    \;\\
+    \textbf{Gas Law}\\
+    $PV=nRT$\qquad$\frac{P_1 V_1}{T_1} = \frac{P_2 V_2}{T_2}$\\
+    $R = \SI{8.21e-2}{\litre\atmosphere\per\mole\per\kelvin}$\\
+    $\textup{STP Gas Law} = 0\degree C, \SI{1}{\atmosphere}$\\
+    $\SI{1}{\atmosphere} = \SI{760}{\torr} = \SI{760}{\milli\metre\mercury}$\\
+  \end{minipage}
+  \begin{minipage}[b]{0.225\textwidth}
+    \raggedright
+    \textbf{Constants}\\
+    $N = \num{6.0223e23}$\\
+    $c = \SI{3.00}{\metre\per\second}$\\
+    $h = \SI{6.63e-34}{\joule\second}$\\
+    \;\\
+    \textbf{Colligative Properties}\\
+    $\Delta T_{f} = i K_f m$\\
+    $\Delta T_b = i K_b m$\\
+    \;\\
+    \;\\
+  \end{minipage}
+  \begin{minipage}[b]{0.375\textwidth}
+    \raggedright
+    \textbf{Energy and Electromagnetic Waves}\\
+    $v = \frac{c}{\lambda}$\\
+    $E = \frac{hc}{\lambda}$\\
+    $E = h\nu$\quad$\textup{Hz} = \unit{/per/second}$\\
+    \;\\
+    \textbf{Thermodynamics}\\
+    $\Delta H^{O}_{rxn} = \Sigma n \Delta H^{O}_{f} - \Sigma m \Delta H^{O}_{f}$\\
+    $\Delta E = \Delta H - P \Delta V$\\
+    $q_1 = -q_2$\;$w = -P\Delta V$\;$\SI{1}{\litre\atmosphere} = \SI{101.3}{\joule}$\\
+    $C = m s$\;$q = m s \Delta t$\;$E = q + w$
+  \end{minipage}
+\end{center}
+
+\begin{center}
+  \begin{minipage}[b]{0.45\textwidth}
+    \large\textbf{Soluble Compounds}\\
+    \begin{enumerate}
+      \small\item All salts of the alkalai metals are soluble
+      \item All salts containing \ce{NH4+}, \ce{NO3-}, \ce{ClO4-}, \ce{ClO3-} and \ce{C2H3O2-} are soluble.
+      \item All chlorides, bromides, and iodides (salts containing \ce{Cl-}, \ce{Br-}, or \ce{I-}) are 
+        soluble except when combined with \ce{Ag+}, \ce{Pb^{2+}}, and \ce{Hg2^{2+}}.
+      \item All salts containing \ce{SO4^{2-}} are soluble except those of \ce{Pb^{2+}}, \ce{Ca^{2+}}, \ce{Sr^{2+}}, \ce{Ba^{2+}}, and \ce{Hg2^{2+}}.
+    \end{enumerate}
+  \end{minipage}
+  \begin{minipage}[b]{0.45\textwidth}
+    \textbf{\large Insoluble Compounds}\\
+    \begin{enumerate}
+      \small\item All metal hydroxides (ionic compounds containing \ce{OH-}) and all metal oxides (ionic compounds containing \ce{O^{2-}} are insoluble except those of Group 1A and those of \ce{Ca^{2+}}, \ce{Sr^{2+}}, and \ce{Ba^{2+}}).
+        \begin{itemize}
+          \footnotesize\item When metal oxides do dissolve, they react with water to form hydroxides.
+            The oxide ion, \ce{O^{2-}}, does not exist in water. For example:
+            \[
+              \ce{Na2O(s)} + \ce{H2O} -> \ce{2NaOH(aq)}
+            \]
+        \end{itemize}
+      \item All salts containing \ce{PO4^{3-}}, \ce{CO3^{2-}}, \ce{SO3^{2-}}, and \ce{S^{2-}} are insoluble except those of Group 1A and \ce{NH4+}
+    \end{enumerate}
+    
+  \end{minipage}  
+\end{center}
+\begin{center}
+ \small 
+  \begin{tabular}{@{}l|l|l@{}}
+  \toprule
+     & \textbf{Element} & \textbf{Oxidation Reaction} \\ \midrule
+    \qquad--------------------------- & Lithium          & \ce{Li ->  Li^{+}  + e-}    \\
+    \qquad\qquad\quad\|\;\:\quad\| & Potassium        & \ce{K ->   K^{+}  +  e-}    \\
+    \qquad\qquad\quad\|\;\:\quad\| & Barium           & \ce{Ba -> Ba^{2+} + 2e-}    \\
+     \qquad\qquad\quad\|\;\:\quad\|& Calcium          & \ce{Ca -> Ca^{2+} + 2e-}    \\
+    \qquad\qquad\quad\|\quad---- & Sodium           & \ce{Na -> Na^{+}   + e-}    \\
+    \qquad\qquad\quad\| & Magnesium        & \ce{Mg -> Mg^{2+} + 2e-}    \\
+     \qquad\qquad\quad\|& Aluminum         & \ce{Al -> Al^{3+} + 3e-}    \\
+     \qquad\qquad\quad\|& Manganese        & \ce{Mn -> Mn^{2+} + 2e-}    \\
+     \qquad\qquad\quad\|& Zinc             & \ce{Zn -> Zn^{2+} + 2e-}    \\
+    \qquad\qquad\quad\| & Chromium         & \ce{Cr -> Cr^{3+} + 3e-}    \\
+   \qquad\qquad\quad------------------  & Iron             & \ce{Fe -> Fe^{2+} + 2e-}    \\
+   \qquad\|  & Cadmium          & \ce{Cd -> Cd^{2+} + 2e-}    \\
+   \qquad\|  & Cobalt           & \ce{Co -> Co^{2+} + 2e-}    \\
+   \qquad\|  & Nickel           & \ce{Ni -> Ni^{2+} + 2e-}    \\
+  \qquad\|   & Tin              & \ce{Sn -> Sn^{2+} + 2e-}    \\
+  \qquad---------------------------   & Lead             & \ce{Pb -> Pb^{2+} + 2e-}    \\
+     & Hydrogen         & \ce{H_2 ->  2H+   + 2e-}    \\
+     \qquad\qquad\qquad\quad------------& Copper           & \ce{Cu -> Cu^{2+} + 2e-}    \\
+     \qquad\qquad\qquad\quad\|& Silver           & \ce{Ag -> Ag^{+}  + e- }    \\
+     \qquad\qquad\qquad\quad\|& Mercury          & \ce{Hg -> Hg^{2+} + 2e-}    \\
+     \qquad\qquad\qquad\quad\|& Platinum         & \ce{Pt -> Pt^{2+} + 2e-}    \\
+     \qquad\qquad\qquad\quad------------& Gold             & \ce{Au -> Au^{+}  +  e-}    \\ \bottomrule
+  \end{tabular}
+
+\end{center}
 
 \clearpage
 
 \section*{Calculate the Velocity of Electrons with de Broglie Wavelengths of 285 nm.}
-
+\normalsize
 The equation 
 \[
 	\lambda = \frac{h}{mv}
@@ -736,7 +850,7 @@ ionization energies specified below? (in \unit{\kilo\joule\per\mole})}
 \\
 
 These five ionization energies are increasing in order.
-Since the third ionization energy is exhibits a great increase, and it is greatly 
+Since the third ionization energy is eemphibits a great increase, and it is greatly 
 difficult to remove an electron from a full octet, one can assume that the atom
 has two valence electrons.
 Looking at the provided options, the only group 2 element in Calcium.
@@ -745,30 +859,20 @@ Thus, one can assume the answer is Calcium, multiple choice option \textbf{B}.
 
 \clearpage
 \section*{What is the hybridization of all the carbon atoms in benzene (\ce{C6H6})?}
+\begin{center}
+  \chemfig{H-C*6(-C(-H)=C(-H)-C(-H)=C(-H)-C(-H)=C(-H))}
+\end{center}
+The carbon atoms in benzene each have three electron regions, and thus each has the
+orbital hybridization $sp^2$.
 
+I'm going to be honest.
+I just can't grasp the mechanism by which electron orbital hybridization occurs, 
+because I do not understand the underlying mathematics of it.
+I have rote memorized the `rule' of association between electron regions and 
+orbital hybridization, but I want to understand it on a deeper level.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\subsection*{Solution}
+\textbf{E.} $sp^2$ 
 
 
 \clearpage
@@ -776,57 +880,70 @@ Thus, one can assume the answer is Calcium, multiple choice option \textbf{B}.
 or ions is paramagnetic in a vapor phase?}
 
 
+Paramagnetism is a weak attraction to magnetic fields because of the spin of electrons
+creating magnetic moments.
 
+\subsection*{Sulfur}
+Sulfur has the following valence electron spin configuration: 
+\electron{3s}{\ud}\quad
+\electron{3p}{\ud\ \up\ \up}\\
+Sulfur can have magnetic properties.
+Its electron spins, and thus electron magnetic moments,
+are unopposed and create an atomic magnetic momentum.
 
+\subsection*{Zinc$^{2+}$}
+Zinc$^{2+}$ has the following valence electron spin configuration:
+\electron{4s}{\x}\quad
+\electron{3d}{\ud\ \ud\ \ud\ \ud\ \ud}\quad
+\electron{4p}{\x\ \x\ \x}\\
+Zinc$^{2+}$ cannot have magnetic properties.
+Its electron's spins, and thus magnetic moments,
+are opposed and equalize to no atomic magnetic moment.
 
+\subsection*{Krypton}
+Krypton has the following valence electron spin configuration:
+\electron{4s}{\ud}\quad
+\electron{3d}{\ud\ \ud\ \ud\ \ud\ \ud}\quad
+\electron{4p}{\ud\ \ud\ \ud}\\
+Krypton cannot have magnetic properties.
+Its electron's spins, and thus magnetic moments,
+are opposed and equalize to no atomic magnetic moment.
 
+\subsection*{Tin$^{2+}$}
+Tin$^{2+}$ has the following valence electron spin configuration:
+\electron{5s}{\ud}\quad
+\electron{4d}{\ud\ \ud\ \ud\ \ud\ \ud}\quad
+\electron{5p}{\x\ \x\ \x}\\
+Tin$^{2+}$ cannot have magnetic properties.
+Its electron's spins, and thus magnetic moments,
+are opposed and equalize to no atomic magnetic moment.
 
+\subsection*{Oxygen$^{2-}$}
+Oxygen$^{2-}$ has the following valence electron spin configuration:
+\electron{2s}{\ud}\quad
+\electron{2p}{\ud\ \ud\ \ud}\\
+Oxygen$^{2-}$ cannot have magnetic properties.
+Its electron's spins, and thus magnetic moments,
+are opposed and equalize to no atomic magnetic moment.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\subsection*{Solution}
+Sulfur is the only atom with a atomic magnetic moment.
+Thus, Sulfur, option \textbf{A.} is the correct answer.
 
 
 \clearpage
 \section*{What is the maximum number of electrons that can have the following set of 
 quantum numbers: n = 4, l = 3 $m_l$ = 3, $m_s$ = $-\frac{1}{2}$}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\textbf{ONE!!}\!
+Basic physics concepts dictate that no two electrons can inhabit
+the same quantum state.
+In nan-relativistic quantum mechanics, there is no proof for the 
+Pauli Exclusion Principle, though I believe one arises in
+relativistic quantum mechanics.
+I do not know that proof.
+However, the most basic physical principles dictate that only
+one electron can inhabit the same quantum state.
 
 
 \clearpage
@@ -834,60 +951,33 @@ quantum numbers: n = 4, l = 3 $m_l$ = 3, $m_s$ = $-\frac{1}{2}$}
 (\ce{Mg^2+}, \ce{N^3-}, \ce{F-}, \ce{Si^4+}) from largest to smallest ionic
 radii.}
 
+When ionization of an atom occurs, an atom that loses an electron
+is called a cation. 
+Likewise, an atom that gains an electron is called an anion.
+Because a cation loses an electron, its atomic radius is necessarily 
+smaller that its parent atom.
+Likewise, anions have greater atomic radii than their
+parent atom.
+Because of this, one can assume that isoelectronic ions, or ions with
+the same electronic configuration, one can order isoelectronic ions
+in order of ionic radii according to their charges.
+\;\\
+\;\\
+Thus, the order that ensures ionic radii are ordered from largest
+to smallest is 
+\ce{N^{3-}}$>$
+\ce{F-}$>$
+\ce{Mg^{2+}}$>$
+\ce{Si^{4+}}.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\subsection*{Solution}
+The order that ensures ionic radii are ordered from largest to smallest
+is \ce{N^{3-}} $>$ \ce{F-} $>$ \ce{Mg^{2+}} $>$ \ce{Si^{4+}}.
+\;\\
+\;\\
+This is equivalent to option \textbf{E.}
 
 
 
 \end{document}
-
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%                                 Copypasta                               %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Table for questions with multiple parts
-
-% \begin{center}
-% 	\begin{tabular}{|c|c|c|c|c|}
-% 		\hline
-% 		_ & _ & _ & _ & _ \\
-% 		\hline
-% 		_ & _ & _ & _ & _ \\
-% 		\hline
-% 	\end{tabular}
-% \end{center}
