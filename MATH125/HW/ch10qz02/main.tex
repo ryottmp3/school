@@ -1,7 +1,9 @@
-\documentclass[11pt, letterpaper]{article}
-\usepackage[includehead, margin=0.75in]{geometry}
+\documentclass[12pt, letterpaper]{article}
+\usepackage[includehead]{geometry}
 \usepackage{fancyhdr}
 \usepackage[british]{babel}
+\usepackage{mathtools}
+\usepackage{mathrsfs}
 \usepackage{amsmath}
 \usepackage{amsthm}
 \usepackage{amssymb}
@@ -17,25 +19,158 @@
 \definecolor{error}{rgb}{255,255,0}
 \newcommand{\degree}{\ensuremath{{}^{\circ}}\xspace}
 
-\begin{document}
 
 \fancypagestyle{plain}{%
 \fancyhf{}%
-\fancyhead[L]{MATH 125---M03 \\ Dr. May}
+\fancyhead[L]{MATH 125---M03 \\ Dr\@. May}
 \fancyhead[R]{H. Ryott Glayzer \\ \today}%
-\fancyhead[C]{Homework \\ \textit{Section Name}}%
-\fancyfoot[L]{\textsc{Homework CH.SEC}}%
+\fancyhead[C]{Chapter 10 Quiz 2 \\\;}%
+\fancyfoot[L]{\textsc{Ch 10 Quiz 2}}%
 \fancyfoot[C]{\thepage~of~\pageref{LastPage}}
-\fancyfoot[R]{\textsc{Calc II with Dr. May}}
+\fancyfoot[R]{\textsc{Calc II with Dr\@. May}}
 }
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
 
-\title{Assignment A.B}
+
+
+\title{Calculus II\@: Chapter 10 Quiz 2}
 \author{H. Ryott Glayzer}
 \date{\today}
 
 
 \maketitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Find the Taylor Series for $f(x) = \cos{(x)}$ centered at $a=0$.
+	For what $x$-values does the series converge?}
+
+The Taylor series for $f(x)$, centered at $a$ can be defined as: 
+
+\begin{equation}
+	\sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!} {(x-a)}^{n}\,.	
+\end{equation}
+
+Taking $f(x)$ to be defined as $\cos{(x)}$ and $a = 0$ gives us the first few terms
+
+\begin{equation}
+	\frac{\cos{(0)}{{(x-0)}^{0}}}{0!} +
+	\frac{-\sin{(0)}{(x-0)}^{1}}{1!} +
+	\frac{-\cos{(0)}{(x-0)}^{2}}{2!} +
+	\frac{\sin{(0)}{(x-0)}^{3}}{3!} + \cdots \,,
+\end{equation}
+which can be simplified to
+\begin{equation}
+	1 + \frac{x^{2}}{2!} + \frac{x^{4}}{4!} + \cdots \,.
+\end{equation}
+This can be generalized in series notation as
+\begin{equation}
+	\sum_{n=0}^{\infty} \frac{x^{2n}}{(2n)!} \,.
+\end{equation}
+
+To determine the interval of convergence for this series, we must use
+a convergence test.
+Since a factorial is involved, we will use the ratio test for convergence.
+
+We define $a_n$ as $\frac{x^{2n}}{{(2n)}!}$\,, and $a_{n+1}$ as
+$\frac{x^{2{(n+1)}}}{{(2{(n+1)})}!}$\,.
+Thus, by the definition of the ratio test, we find
+\begin{subequations}
+\begin{align}
+	\textup{L} &=
+	\lim_{n\to\infty}
+	\left|
+	\frac
+	{\frac{x^{2n+2}}{{(2n+2)}!}}
+	{\frac{x^{2n}}{{(2n)}!}}
+	\right|\\
+	  &= \lim_{n\to\infty}
+	\left|
+	\frac
+	{x^{2n+2}\cdot{(2n)}!}
+	{x^{2n}\cdot{(2n+2)}!}
+	\right|\\
+	  &=
+	   \lim_{n\to\infty}
+	   \left|
+	   \frac
+	   {x^{2}}
+	   {{(2n+1)}{(2n+2)}}
+	   \right|\\
+	  &=
+	  \lim_{n\to\infty}
+	  \left|
+	  \frac{x^2}{2{(n+1)}{(2n+1)}}
+	  \right|
+\end{align}
+\end{subequations}
+In this limit, the $x$-values, while variable,
+do not necessarily increase with $n$ and can be treated as an arbitrary
+constant of sorts.
+\begin{subequations}
+\begin{align}
+	L &= 
+	\lim_{n\to\infty}
+	\left|
+	\frac{x^2}{4n^2+6n+2}
+	\right|\to0\\
+	  &= 0
+\end{align}
+\end{subequations}
+Because of this, it follows that $a_n$ converges absolutely,
+for all values of $x$.
+In other words, $x$ converges on the interval ${(-\infty,\infty)}$.
+
+\hfill\blacksquare%
+\clearpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Give the 4th-order Taylor Polynomial, $p_{4}{(x)}$, for 
+$f{(x)}=\cos{(x)}$, centered at $a=0$}
+
+The Taylor Polynomial can be derived from the Taylor Series as such:
+\begin{equation}
+	p_{k}{(x)} = \sum_{n=0}^{k} \frac{f^{(n)}{(a)}}{n!}{(x-a)}^{n} \,.
+\end{equation}
+This allows us to find the fourth Taylor polynomial for the provided function
+$f{(x)}=\cos{(x)}$:
+\begin{subequations}
+	\begin{align}
+		p_{0}{(x)} &= 1\\
+		p_{1}{(x)} &= 1 - 0x\\
+		p_{2}{(x)} &= 1 - 0x + \frac{1}{2}x^{2}\\
+		p_{3}{(x)} &= 1 - 0x + \frac{1}{2}x^{2} - 0x^{3}\\
+		p_{4}{(x)} &= 1 - 0x + \frac{1}{2}x^{2} - 0x^{3} + \frac{1}{24}x^{4}\\
+		\leadsto p_{4}{(x)} &= 1 + \frac{1}{2}x^{2} + \frac{1}{24}x^{4}\,.
+	\end{align}
+\end{subequations}
+\hfill\blacksquare%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Provide the maximum error, $|R_{4}{(x)}|=|\cos{(x)}-p_{4}{(x)}|$,
+for $p_{4}{(x)}$ over $-\frac{\pi}{2}\leq x \leq \frac{\pi}{2}$.}
+
+
+
+\hfill\blacksquare%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Compute $p_{4}{(1)}$ and $f{(1)}$ and round to the fourth decimal
+place. Compare the difference to the upper bound of $|R_{4}{(1)}$.}
+
+
+
+
+
+
+
+\hfill\blacksquare%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
 
 
 
@@ -87,8 +222,8 @@
 % 	\begin{tabular}{|c|c|c|c|c|}
 % 		\hline
 % 		_ & _ & _ & _ & _ \\
-% 		\hline
+% 		\line
 % 		_ & _ & _ & _ & _ \\
-% 		\hline
+% 		\line
 % 	\end{tabular}
 % \end{center}
