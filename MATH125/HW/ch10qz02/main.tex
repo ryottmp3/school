@@ -63,11 +63,11 @@ Taking $f(x)$ to be defined as $\cos{(x)}$ and $a = 0$ gives us the first few te
 \end{equation}
 which can be simplified to
 \begin{equation}
-	1 + \frac{x^{2}}{2!} + \frac{x^{4}}{4!} + \cdots \,.
+	1 - \frac{x^{2}}{2!} + \frac{x^{4}}{4!} + \cdots \,.
 \end{equation}
-This can be generalized in series notation as
+This can be generalized in series notation as the power series
 \begin{equation}
-	\sum_{n=0}^{\infty} \frac{x^{2n}}{(2n)!} \,.
+	\sum_{n=0}^{\infty} {(-1)}^{n}\frac{x^{2n}}{(2n)!} \,.
 \end{equation}
 
 To determine the interval of convergence for this series, we must use
@@ -83,8 +83,8 @@ Thus, by the definition of the ratio test, we find
 	\lim_{n\to\infty}
 	\left|
 	\frac
-	{\frac{x^{2n+2}}{{(2n+2)}!}}
-	{\frac{x^{2n}}{{(2n)}!}}
+	{\frac{{(-1)}^{n}x^{2n+2}}{{(2n+2)}!}}
+	{\frac{{(-1)}^{n}x^{2n}}{{(2n)}!}}
 	\right|\\
 	  &= \lim_{n\to\infty}
 	\left|
@@ -141,10 +141,10 @@ $f{(x)}=\cos{(x)}$:
 	\begin{align}
 		p_{0}{(x)} &= 1\\
 		p_{1}{(x)} &= 1 - 0x\\
-		p_{2}{(x)} &= 1 - 0x + \frac{1}{2}x^{2}\\
-		p_{3}{(x)} &= 1 - 0x + \frac{1}{2}x^{2} - 0x^{3}\\
-		p_{4}{(x)} &= 1 - 0x + \frac{1}{2}x^{2} - 0x^{3} + \frac{1}{24}x^{4}\\
-		\leadsto p_{4}{(x)} &= 1 + \frac{1}{2}x^{2} + \frac{1}{24}x^{4}\,.
+		p_{2}{(x)} &= 1 - 0x - \frac{1}{2}x^{2}\\
+		p_{3}{(x)} &= 1 - 0x - \frac{1}{2}x^{2} - 0x^{3}\\
+		p_{4}{(x)} &= 1 - 0x - \frac{1}{2}x^{2} - 0x^{3} + \frac{1}{24}x^{4}\\
+		\leadsto p_{4}{(x)} &= 1 - \frac{1}{2}x^{2} + \frac{1}{24}x^{4}\,.
 	\end{align}
 \end{subequations}
 \hfill\blacksquare%
@@ -152,13 +152,33 @@ $f{(x)}=\cos{(x)}$:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Provide the maximum error, $|R_{4}{(x)}|=|\cos{(x)}-p_{4}{(x)}|$,
 for $p_{4}{(x)}$ over $-\frac{\pi}{2}\leq x \leq \frac{\pi}{2}$.}
+To find maximum error, we must use Lagrange's formula:
+\begin{equation}
+	R_{n}{(x)} = \frac{f^{(n+1)}{(c)}}{(n+1)!}{(x-a)}^{n+1}
+\end{equation}
+This leads us to the equation
+\begin{equation}
+	R_{4}{(x)}=\frac{\Dot{\Ddot{\Ddot{f}}}{(c)}}{5!}{x^{5}}=\frac{-\sin{c}}{120}x^{5}
+\end{equation}
+over the interval ${(-\frac{\pi}{2}, \frac{\pi}{2})}$.
+Since both $f{(x)}$ and $p_4{(x)}$ are symmetric about the $y$-axis, we can
+take the interval to be $0 \leq |c| \leq \frac{\pi}{2}$.
+Looking at the trends of $R_4{(x)}$ as we vary $c$ from 0 $-\frac{\pi}{2}$ to
+$\frac{\pi}{2}$ allows us to see that the greatest error will occur
+when $|c|$ is equal to $\frac{\pi}{2}$. 
 
+Thus, utilizing this error value for the given equation 
+\begin{equation}
+	|R_4{(x)}| = |\cos{(x)}-p_4{(x)}|
+\end{equation}
+provides the maximum error over the interval ${(-\frac{\pi}{2}, \frac{\pi}{2})}$
+of  
 
 
 \hfill\blacksquare%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Compute $p_{4}{(1)}$ and $f{(1)}$ and round to the fourth decimal
-place. Compare the difference to the upper bound of $|R_{4}{(1)}$.}
+place. Compare the difference to the upper bound of $|R_{4}{(1)}|$.}
 
 
 
