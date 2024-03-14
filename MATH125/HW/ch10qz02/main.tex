@@ -172,27 +172,58 @@ Thus, utilizing this error value for the given equation
 	|R_4{(x)}| = |\cos{(x)}-p_4{(x)}|
 \end{equation}
 provides the maximum error over the interval ${(-\frac{\pi}{2}, \frac{\pi}{2})}$
-of  
+of  $0.01996$
 
 
 \hfill\blacksquare%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Compute $p_{4}{(1)}$ and $f{(1)}$ and round to the fourth decimal
 place. Compare the difference to the upper bound of $|R_{4}{(1)}|$.}
+$p_{4}{(1)}=\frac{13}{24} \sim 0.5417$\\
+$f{(1)}\sim 0.5403$\\
+$\textup{diff}\sim 0.0014$\\
+The upper bound can be given via 
+\begin{equation}
+	R_{4}{(x)}=\frac{\Dot{\Ddot{\Ddot{f}}}{(c)}}{5!}{x^{5}}=\frac{-\sin{c}}{120}x^{5}\,,
+\end{equation}
+choosing an appropriate value for $c$ given $x$ is 1.
+Upon analyzing this equation for the parametrization of $c$, we can see that
+the upper bound occurs when $c=1$.
+Plugging into this equation gives us $R_{4}{(1)}=-0.00701$
+This is about half of the difference between the two earlier values.
 
+\hfill\blacksquare%
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Find the Taylor Series for $f{(x)}=e^x$ centered at $a=0$.
+For what $x$-values does this series converge?}
 
+The Taylor series for $f(x)$, centered at $a$ can be defined as: 
 
+\begin{equation}
+	\sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!} {(x-a)}^{n}\,.	
+\end{equation}
 
+Taking $f(x)$ to be defined as $e^x$ and $a = 0$ gives us the first few terms
 
-
+\begin{equation}
+	\frac{e^{0}{{(x-0)}^{0}}}{0!} +
+	\frac{e^{0}{(x-0)}^{1}}{1!} +
+	\frac{e^{0}{(x-0)}^{2}}{2!} +
+	\frac{e^{0}{(x-0)}^{3}}{3!} + \cdots \,,
+\end{equation}
+which can be simplified to the power series
+\begin{equation}
+	\sum_{n=0}^{\infty} \frac{x^n}{n!}
+\end{equation}
+which converges over $x \in \mathbb{R} : x > 0$.
 
 \hfill\blacksquare%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
-
-
+\begin{center}
+	The rest is on paper, as I don't have time to type out pretty \LaTeX%
+\end{center}
 
 
 
