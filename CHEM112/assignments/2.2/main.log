@@ -1,24 +1,25 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.4)  20 FEB 2024 10:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.20)  31 MAR 2024 20:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**CHEM112_ASSIGNMENT.tex
-(./CHEM112_ASSIGNMENT.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-22> (/usr/share/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+**main.tex
+(./main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count185
-\c@section=\count186
-\c@subsection=\count187
-\c@subsubsection=\count188
-\c@paragraph=\count189
-\c@subparagraph=\count190
-\c@figure=\count191
-\c@table=\count192
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
@@ -26,15 +27,15 @@ File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks17
 ) (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count193
-\Gm@cntv=\count194
-\c@Gm@tempcnt=\count195
+\Gm@cnth=\count196
+\Gm@cntv=\count197
+\c@Gm@tempcnt=\count198
 \Gm@bindingoffset=\dimen141
 \Gm@wd@mp=\dimen142
 \Gm@odd@mp=\dimen143
@@ -43,7 +44,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutheight=\dimen146
 \Gm@layouthoffset=\dimen147
 \Gm@layoutvoffset=\dimen148
-\Gm@dimlist=\toks17
+\Gm@dimlist=\toks18
 ) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip50
@@ -56,13 +57,13 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@olf=\skip57
 \f@nch@O@orf=\skip58
 ) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2023/02/13 3.86 The Babel package
-\babel@savecnt=\count196
+Package: babel 2024/02/07 v24.2 The Babel package
+\babel@savecnt=\count199
 \U@D=\dimen149
-\l@unhyphenated=\language3
+\l@unhyphenated=\language9
  (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count197
+\bbl@dirlevel=\count266
  (/usr/share/texmf-dist/tex/generic/babel-english/british.ldf
 Language: british 2017/06/06 v3.3r English support from the babel system
  (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
@@ -133,25 +134,25 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmsmf/bx/n --> OT1/cmsmf/m/n on input line 145.
 ) (/usr/share/texmf-dist/tex/generic/soul/soul.sty
-Package: soul 2023-02-18 v3.0 Permit use of UTF-8 characters in soul (HO)
+Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
  (/usr/share/texmf-dist/tex/generic/soul/soul-ori.sty
-Package: soul-ori 2023-02-18 v3.0 letterspacing/underlining (mf)
-\SOUL@word=\toks18
-\SOUL@lasttoken=\toks19
-\SOUL@syllable=\toks20
-\SOUL@cmds=\toks21
-\SOUL@buffer=\toks22
-\SOUL@token=\toks23
+Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
+\SOUL@word=\toks19
+\SOUL@lasttoken=\toks20
+\SOUL@syllable=\toks21
+\SOUL@cmds=\toks22
+\SOUL@buffer=\toks23
+\SOUL@token=\toks24
 \SOUL@syllgoal=\dimen150
 \SOUL@syllwidth=\dimen151
 \SOUL@charkern=\dimen152
 \SOUL@hyphkern=\dimen153
 \SOUL@dimen=\dimen154
 \SOUL@dimeni=\dimen155
-\SOUL@minus=\count198
-\SOUL@comma=\count199
-\SOUL@apo=\count266
-\SOUL@grave=\count267
+\SOUL@minus=\count267
+\SOUL@comma=\count268
+\SOUL@apo=\count269
+\SOUL@grave=\count270
 \SOUL@spaceskip=\skip59
 \SOUL@ttwidth=\dimen156
 \SOUL@uldp=\dimen157
@@ -169,54 +170,56 @@ Package color Info: Driver file: pdftex.def on input line 149.
  (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ) (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
-Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
  (/usr/share/texmf-dist/tex/latex/tools/array.sty
-Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen159
 \ar@mcellbox=\box51
 \extrarowheight=\dimen160
-\NC@list=\toks24
+\NC@list=\toks25
 \extratabsurround=\skip60
 \backup@length=\skip61
 \ar@cellbox=\box52
 )
-\everycr=\toks25
+\everycr=\toks26
 \minrowclearance=\skip62
-\rownum=\count268
+\rownum=\count271
+) (/usr/share/texmf-dist/tex/latex/lewis/lewis.sty
+Package: lewis 2006/05/22 v0.1 Draw Lewis Structures
 ) (/usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2023-03-04 v3.2.2 A comprehensive (SI) units package
+Package: siunitx 2024-02-15 v3.3.12 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count272
+\l__siunitx_number_exponent_fixed_int=\count273
+\l__siunitx_number_min_decimal_int=\count274
+\l__siunitx_number_min_integer_int=\count275
+\l__siunitx_number_round_precision_int=\count276
+\l__siunitx_number_lower_threshold_int=\count277
+\l__siunitx_number_upper_threshold_int=\count278
+\l__siunitx_number_group_first_int=\count279
+\l__siunitx_number_group_size_int=\count280
+\l__siunitx_number_group_minimum_int=\count281
 \l__siunitx_angle_tmp_dim=\dimen161
 \l__siunitx_angle_marker_box=\box53
 \l__siunitx_angle_unit_box=\box54
-\l__siunitx_compound_count_int=\count269
+\l__siunitx_compound_count_int=\count282
  (/usr/share/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
  (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count270
+\etb@tempcnta=\count283
 ) (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
  (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-))
-\l__siunitx_number_exponent_fixed_int=\count271
-\l__siunitx_number_min_decimal_int=\count272
-\l__siunitx_number_min_integer_int=\count273
-\l__siunitx_number_round_precision_int=\count274
-\l__siunitx_number_lower_threshold_int=\count275
-\l__siunitx_number_upper_threshold_int=\count276
-\l__siunitx_number_group_first_int=\count277
-\l__siunitx_number_group_size_int=\count278
-\l__siunitx_number_group_minimum_int=\count279
- (/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+)) (/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
  (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks26
+\@emptytoks=\toks27
 \ex@=\dimen162
 ))
 \l__siunitx_table_tmp_box=\box55
@@ -229,18 +232,18 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \l__siunitx_table_after_box=\box60
 \l__siunitx_table_before_dim=\dimen165
 \l__siunitx_table_carry_dim=\dimen166
-\l__siunitx_unit_tmp_int=\count280
-\l__siunitx_unit_position_int=\count281
-\l__siunitx_unit_total_int=\count282
+\l__siunitx_unit_tmp_int=\count284
+\l__siunitx_unit_position_int=\count285
+\l__siunitx_unit_total_int=\count286
 ) (/usr/share/texmf-dist/tex/latex/textgreek/textgreek.sty
 Package: textgreek 2011/10/09 v0.7 Greek symbols in text
 Package textgreek Info: Loading the definitions for the Greek fontencoding. on input line 39.
  (/usr/share/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
-File: lgrenc.def 2023/02/28 2.2 LGR Greek font encoding definitions
+File: lgrenc.def 2023-09-12 2.5 LGR Greek font encoding definitions
 Now handling font encoding LGR ...
 ... processing UTF-8 mapping file for font encoding LGR
  (/usr/share/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
-File: lgrenc.dfu 2023/02/21 1.8 UTF-8 support for Greek
+File: lgrenc.dfu 2023-03-21 1.9 UTF-8 support for Greek
    defining Unicode char U+00A8 (decimal 168)
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00AF (decimal 175)
@@ -591,34 +594,34 @@ File: lgrenc.dfu 2023/02/21 1.8 UTF-8 support for Greek
    defining Unicode char U+10146 (decimal 65862)
    defining Unicode char U+10147 (decimal 65863)
 ) (/usr/share/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
-File: greek-fontenc.def 2023/03/08 2.2.1 Common Greek font encoding definitions
+File: greek-fontenc.def 2023-09-12 2.5 Common Greek font encoding definitions
 ))
 Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/*}. on input line 69.
 ) (/usr/share/texmf-dist/tex/latex/mhchem/mhchem.sty
-Package: mhchem 2021/12/31 v4.09 for typesetting chemical formulae
- (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-02-22 L3 programming layer (loader) 
+Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
 
-(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count283
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-02-20 L3 programming layer (loader) 
+ (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count287
 \l__pdf_internal_box=\box61
 )) (/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2024-02-18 LaTeX2e option processing using LaTeX3 keys
 ) (/usr/share/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count284
-\calc@Bcount=\count285
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count288
+\calc@Bcount=\count289
 \calc@Adimen=\dimen167
 \calc@Bdimen=\dimen168
 \calc@Askip=\skip63
 \calc@Bskip=\skip64
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count286
+\calc@Ccount=\count290
 \calc@Cskip=\skip65
 ) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2022/04/08 v2.17n AMS math features
+Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip66
 
 For additional information on amsmath, use the `?' option.
@@ -628,14 +631,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count287
+\inf@bad=\count291
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count288
-\leftroot@=\count289
+\uproot@=\count292
+\leftroot@=\count293
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count290
-\DOTSCASE@=\count291
+\classnum@=\count294
+\DOTSCASE@=\count295
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -648,39 +651,39 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen170
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count292
+\macc@depth=\count296
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count293
+\c@MaxMatrixCols=\count297
 \dotsspace@=\muskip16
-\c@parentequation=\count294
-\dspbrk@lvl=\count295
-\tag@help=\toks27
-\row@=\count296
-\column@=\count297
-\maxfields@=\count298
-\andhelp@=\toks28
+\c@parentequation=\count298
+\dspbrk@lvl=\count299
+\tag@help=\toks28
+\row@=\count300
+\column@=\count301
+\maxfields@=\count302
+\andhelp@=\toks29
 \eqnshift@=\dimen171
 \alignsep@=\dimen172
 \tagshift@=\dimen173
 \tagwidth@=\dimen174
 \totwidth@=\dimen175
 \lineht@=\dimen176
-\@envbody=\toks29
+\@envbody=\toks30
 \multlinegap=\skip67
 \multlinetaggap=\skip68
-\mathdisplay@stack=\toks30
+\mathdisplay@stack=\toks31
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (/usr/share/texmf-dist/tex/latex/chemgreek/chemgreek.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2023-02-02 L3 Experimental document command parser
+Package: xparse 2024-02-18 L3 Experimental document command parser
 )
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
-\l__chemgreek_tmpa_int=\count299
-\g__chemgreek_tmpa_int=\count300
+\l__chemgreek_tmpa_int=\count303
+\g__chemgreek_tmpa_int=\count304
 ) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
  (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
@@ -690,7 +693,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count301
+\l__mhchem_ce_distanceFromLastComma_int=\count305
 \__mhchem_arrow_extPgfLength_skip=\skip69
 \mhchem@minispace@tmp=\skip70
 \mhchem@minibackspace@tmp=\skip71
@@ -701,7 +704,7 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 \mhchem@smallbondwidth=\skip76
 \mhchem@bondtmp@minussidebearingleft=\skip77
 \mhchem@bondtmp@minussidebearingright=\skip78
-\l__mhchem_option_version_int=\count302
+\l__mhchem_option_version_int=\count306
 \mhchem@option@minusmathsidebearingleft=\dimen177
 \mhchem@option@minusmathsidebearingright=\dimen178
 \mhchem@option@minustextsidebearingleft=\dimen179
@@ -715,7 +718,7 @@ Package mhchem Warning: You did not specify a 'version' option for the mhchem
 (mhchem)                different output with the same input in future versions.
 
 ) (/usr/share/texmf-dist/tex/latex/modiagram/modiagram.sty (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks31
+\pgfutil@everybye=\toks32
 \pgfutil@tempdima=\dimen181
 \pgfutil@tempdimb=\dimen182
 ) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -731,10 +734,10 @@ Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 ) (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks32
-\pgfkeys@temptoks=\toks33
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
  (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks34
+\pgfkeys@tmptoks=\toks35
 ))
 \pgf@x=\dimen185
 \pgf@y=\dimen186
@@ -748,14 +751,14 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yd=\dimen194
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count303
-\c@pgf@countb=\count304
-\c@pgf@countc=\count305
-\c@pgf@countd=\count306
-\t@pgf@toka=\toks35
-\t@pgf@tokb=\toks36
-\t@pgf@tokc=\toks37
-\pgf@sys@id@count=\count307
+\c@pgf@counta=\count307
+\c@pgf@countb=\count308
+\c@pgf@countc=\count309
+\c@pgf@countd=\count310
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+\pgf@sys@id@count=\count311
  (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -766,39 +769,39 @@ File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count308
-\pgfsyssoftpath@bigbuffer@items=\count309
+\pgfsyssoftpath@smallbuffer@items=\count312
+\pgfsyssoftpath@bigbuffer@items=\count313
 ) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
  (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 227.
-LaTeX Info: Redefining \color on input line 711.
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+LaTeX Info: Redefining \color on input line 758.
  (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
-Package xcolor Info: Model `RGB' extended on input line 1369.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen195
-\pgfmath@count=\count310
+\pgfmath@count=\count314
 \pgfmath@box=\box65
-\pgfmath@toks=\toks38
-\pgfmath@stack@operand=\toks39
-\pgfmath@stack@operation=\toks40
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
 ) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count311
+\c@pgfmathroundto@lastzeros=\count315
 )) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen196
@@ -828,7 +831,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box66
 \pgf@hbox=\box67
 \pgf@layerbox@main=\box68
-\pgf@picture@serial@count=\count312
+\pgf@picture@serial@count=\count316
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen270
@@ -849,8 +852,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen275
-\pgf@sys@shading@range@num=\count313
-\pgf@shadingcount=\count314
+\pgf@sys@shading@range@num=\count317
+\pgf@shadingcount=\count318
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
@@ -880,13 +883,13 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen278
 \pgffor@skip=\dimen279
-\pgffor@stack=\toks41
-\pgffor@toks=\toks42
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
 )) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count315
+\pgf@plot@mark@count=\count319
 \pgfplotmarksize=\dimen280
 )
 \tikz@lastx=\dimen281
@@ -901,17 +904,17 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box72
 \tikz@tempbox=\box73
 \tikz@tempbox@bg=\box74
-\tikztreelevel=\count316
-\tikznumberofchildren=\count317
-\tikznumberofcurrentchild=\count318
-\tikz@fig@count=\count319
+\tikztreelevel=\count320
+\tikznumberofchildren=\count321
+\tikznumberofcurrentchild=\count322
+\tikz@fig@count=\count323
  (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count320
-\pgfmatrixcurrentcolumn=\count321
-\pgf@matrix@numberofcolumns=\count322
+\pgfmatrixcurrentrow=\count324
+\pgfmatrixcurrentcolumn=\count325
+\pgf@matrix@numberofcolumns=\count326
 )
-\tikz@expandcount=\count323
+\tikz@expandcount=\count327
  (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
@@ -958,7 +961,7 @@ Package: modiagram 2020/11/08 v0.3a easy creation of molecular orbital diagrams
 \l__modiagram_AO_px_shift_dim=\dimen322
 \l__modiagram_AO_py_shift_dim=\dimen323
 \l__modiagram_AO_pz_shift_dim=\dimen324
-\g__modiagram_AO_name_int=\count324
+\g__modiagram_AO_name_int=\count328
 \l_energy_axis_dim=\dimen325
 ) (/usr/share/texmf-dist/tex/latex/tikzorbital/tikzorbital.sty
 Package: tikzorbital 2012/12/05 draw atomic orbitals and molecular diagrams with tikz
@@ -1013,7 +1016,7 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \pgf@layerbox@foreground=\box97
 \pgf@layerboxsaved@foreground=\box98
 ) (/usr/share/texmf-dist/tex/generic/chemfig/chemfig.sty (/usr/share/texmf-dist/tex/generic/chemfig/chemfig.tex (/usr/share/texmf-dist/tex/generic/simplekv/simplekv.tex
-Package: simplekv 2022/10/01 v0.2a Simple keyval package (CT)
+Package: simplekv 2023/10/02 v0.2c Simple keyval package (CT)
 ) (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowinset=\dimen326
@@ -1021,172 +1024,68 @@ File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowwidth=\dimen328
 \pgfarrowlinewidth=\dimen329
 )
-\CF_cnt_atomgroup=\count325
-\CF_cnt_group=\count326
-\CF_cnt_atom=\count327
-\CF_cnt_cycle=\count328
-\CF_cnt_cyclebonds=\count329
-\CF_cnt_compound=\count330
+\CF_cnt_atomgroup=\count329
+\CF_cnt_group=\count330
+\CF_cnt_atom=\count331
+\CF_cnt_cycle=\count332
+\CF_cnt_cyclebonds=\count333
+\CF_cnt_compound=\count334
 \CF_dim=\dimen330
-\CF_arrowsize=\dimen331
-\CF_zero=\dimen332
+\CF_turnangle=\dimen331
+\CF_arrowsize=\dimen332
+\CF_zero=\dimen333
 \CF_box=\box99
 \CF_boxstuff=\box100
 \CF_testbox=\box101
 \CF_chargebox=\box102
-\CF_substtoks=\toks43
+\CF_substtoks=\toks44
 )
-Package: chemfig 2023/02/18 v1.6d Draw molecule with an easy syntax (CT)
+Package: chemfig 2023/12/28 v1.66 Draw molecule with an easy syntax (CT)
 ) (/usr/share/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-) (/usr/share/texmf-dist/tex/latex/lewis/lewis.sty
-Package: lewis 2006/05/22 v0.1 Draw Lewis Structures
-) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
- (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
-Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/usr/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
-Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
- (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-))
-\c@section@level=\count331
 )
-\@linkdim=\dimen333
-\Hy@linkcounter=\count332
-\Hy@pagecounter=\count333
- (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-) (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
-Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-\Hy@SavedSpaceFactor=\count334
- (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
- (/usr/share/texmf-dist/tex/latex/hyperref/puenc-greekbasic.def
-File: puenc-greekbasic.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (greek block) (HO)
-))
-Package hyperref Info: Hyper figures OFF on input line 4177.
-Package hyperref Info: Link nesting OFF on input line 4182.
-Package hyperref Info: Hyper index ON on input line 4185.
-Package hyperref Info: Plain pages OFF on input line 4192.
-Package hyperref Info: Backreferencing OFF on input line 4197.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4425.
-\c@Hy@tempcnt=\count335
- (/usr/share/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen334
- (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
-Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
-))
-\Fld@menulength=\count336
-\Field@Width=\dimen335
-\Fld@charsize=\dimen336
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
- (/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
-)
-\Hy@abspage=\count337
-\c@Item=\count338
-\c@Hfootnote=\count339
-)
-Package hyperref Info: Driver (autodetected): hpdftex.
- (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
- (/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
-with kernel methods
-)
-\Fld@listcount=\count340
-\c@bookmark@seq@number=\count341
- (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
-Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
-)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
-)
-\Hy@SectionHShift=\skip79
-)
-Package hyperref Info: Option `colorlinks' set `true' on input line 24.
-LaTeX Font Info:    Trying to load font information for OT1+xcmss on input line 25.
+LaTeX Font Info:    Trying to load font information for OT1+xcmss on input line 21.
  (/usr/share/texmf-dist/tex/latex/sansmathfonts/ot1xcmss.fd
 File: ot1xcmss.fd 2021/06/22
-) (./CHEM112_ASSIGNMENT.aux)
-\openout1 = `CHEM112_ASSIGNMENT.aux'.
+) (./main.aux)
+\openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmssm/m/it on input line 25.
-LaTeX Font Info:    Trying to load font information for OML+cmssm on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmssm/m/it on input line 21.
+LaTeX Font Info:    Trying to load font information for OML+cmssm on input line 21.
  (/usr/share/texmf-dist/tex/latex/sansmathfonts/omlcmssm.fd
 File: omlcmssm.fd 2019/04/04
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsssy/m/n on input line 25.
-LaTeX Font Info:    Trying to load font information for OMS+cmsssy on input line 25.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsssy/m/n on input line 21.
+LaTeX Font Info:    Trying to load font information for OMS+cmsssy on input line 21.
  (/usr/share/texmf-dist/tex/latex/sansmathfonts/omscmsssy.fd
 File: omscmsssy.fd 2019/04/04
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmssex/m/n on input line 25.
-LaTeX Font Info:    Trying to load font information for OMX+cmssex on input line 25.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmssex/m/n on input line 21.
+LaTeX Font Info:    Trying to load font information for OMX+cmssex on input line 21.
  (/usr/share/texmf-dist/tex/latex/sansmathfonts/omxcmssex.fd
 File: omxcmssex.fd 2021/06/22
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/xcmss/m/n on input line 25.
-LaTeX Font Info:    Trying to load font information for U+xcmss on input line 25.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/xcmss/m/n on input line 21.
+LaTeX Font Info:    Trying to load font information for U+xcmss on input line 21.
  (/usr/share/texmf-dist/tex/latex/sansmathfonts/uxcmss.fd
 File: uxcmss.fd 2021/06/22
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 25.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 25.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 21.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 21.
  (/usr/share/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    ... okay on input line 21.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1224,17 +1123,17 @@ LaTeX Font Info:    ... okay on input line 25.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count342
-\scratchdimen=\dimen337
+\scratchcounter=\count335
+\scratchdimen=\dimen334
 \scratchbox=\box103
-\nofMPsegments=\count343
-\nofMParguments=\count344
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count345
-\MPscratchDim=\dimen338
-\MPnumerator=\count346
-\makeMPintoPDFobject=\count347
-\everyMPtoPDFconversion=\toks45
+\nofMPsegments=\count336
+\nofMParguments=\count337
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count338
+\MPscratchDim=\dimen335
+\MPnumerator=\count339
+\makeMPintoPDFobject=\count340
+\everyMPtoPDFconversion=\toks46
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1244,121 +1143,33 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
 
-Package chemgreek Info: Activating mapping `textgreek' on line 25.
+Package chemgreek Info: Activating mapping `textgreek' on line 21.
 
-Package hyperref Info: Link coloring ON on input line 25.
- (./CHEM112_ASSIGNMENT.out) (./CHEM112_ASSIGNMENT.out)
-\@outlinefile=\write4
-\openout4 = `CHEM112_ASSIGNMENT.out'.
-
-LaTeX Font Info:    Trying to load font information for OT1+cmsmf on input line 41.
+LaTeX Font Info:    Trying to load font information for OT1+cmsmf on input line 36.
  (/usr/share/texmf-dist/tex/latex/sansmathfonts/ot1cmsmf.fd
 File: ot1cmsmf.fd 2021/06/22
 )
 
 LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 42.
+(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 39.
 
 LaTeX Font Info:    Font shape `OT1/xcmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/xcmss/m/sl' tried instead on input line 45.
+(Font)              Font shape `OT1/xcmss/m/sl' tried instead on input line 43.
 
 LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <12> not available
-(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 51.
+(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 48.
 
-./CHEM112_ASSIGNMENT.tex:75: Missing $ inserted.
-<inserted text> 
-                $
-l.75 		\[ [Ne]3s^
-                 {2}3p^{1} \] & \[ [Ar]4s^{2}3d^{10}4p^{5} \] & \[ [Kr]5s^{2...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-./CHEM112_ASSIGNMENT.tex:75: Missing $ inserted.
-<inserted text> 
-                $
-l.75 		\[ [Ne]3s^{2}3p^{1} \]
-                              & \[ [Ar]4s^{2}3d^{10}4p^{5} \] & \[ [Kr]5s^{2...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 68.
 
-./CHEM112_ASSIGNMENT.tex:75: Missing $ inserted.
-<inserted text> 
-                $
-l.75 		\[ [Ne]3s^{2}3p^{1} \] & \[ [Ar]4s^
-                                          {2}3d^{10}4p^{5} \] & \[ [Kr]5s^{2...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-./CHEM112_ASSIGNMENT.tex:75: Missing $ inserted.
-<inserted text> 
-                $
-l.75 ...}3p^{1} \] & \[ [Ar]4s^{2}3d^{10}4p^{5} \]
-                                                   & \[ [Kr]5s^{2} \] & \[ [...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <8> not available
+(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 68.
 
-./CHEM112_ASSIGNMENT.tex:75: Missing $ inserted.
-<inserted text> 
-                $
-l.75 ...\[ [Ar]4s^{2}3d^{10}4p^{5} \] & \[ [Kr]5s^
-                                                  {2} \] & \[ [He]2s^{1} \] ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-./CHEM112_ASSIGNMENT.tex:75: Missing $ inserted.
-<inserted text> 
-                $
-l.75 ...]4s^{2}3d^{10}4p^{5} \] & \[ [Kr]5s^{2} \]
-                                                   & \[ [He]2s^{1} \] & \[ [...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./CHEM112_ASSIGNMENT.tex:75: Missing $ inserted.
-<inserted text> 
-                $
-l.75 ...}4p^{5} \] & \[ [Kr]5s^{2} \] & \[ [He]2s^
-                                                  {1} \] & \[ [Ar]4s^{2}3d^{...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./CHEM112_ASSIGNMENT.tex:75: Missing $ inserted.
-<inserted text> 
-                $
-l.75 ...} \] & \[ [Kr]5s^{2} \] & \[ [He]2s^{1} \]
-                                                   & \[ [Ar]4s^{2}3d^{10}4p^...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./CHEM112_ASSIGNMENT.tex:75: Missing $ inserted.
-<inserted text> 
-                $
-l.75 ...]5s^{2} \] & \[ [He]2s^{1} \] & \[ [Ar]4s^
-                                                  {2}3d^{10}4p^{3} \] & \hl{...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./CHEM112_ASSIGNMENT.tex:75: Missing $ inserted.
-<inserted text> 
-                $
-l.75 ...]2s^{1} \] & \[ [Ar]4s^{2}3d^{10}4p^{3} \]
-                                                   & \hl{$[Ne]3s^{2}3p^{3}$} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <6> not available
+(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 68.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1369,443 +1180,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-]
-
-LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 176.
-
-
-LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 176.
-
-
-LaTeX Font Warning: Font shape `OT1/xcmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/xcmss/bx/n' tried instead on input line 180.
-
-./CHEM112_ASSIGNMENT.tex:199: Missing $ inserted.
-<inserted text> 
-                $
-l.199 		\chemright]^
-                    {+}&
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./CHEM112_ASSIGNMENT.tex:199: Missing $ inserted.
-<inserted text> 
-                $
-l.199 		\chemright]^{+}&
-                        
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (6.31693pt too wide) in paragraph at lines 187--205
- [] 
- []
-
-[2] [3]
-./CHEM112_ASSIGNMENT.tex:321: Missing $ inserted.
-<inserted text> 
-                $
-l.321 		_
-          & \ce{ClO2-} & \ce{TeCl4^{2-}} & \ce{PH2-} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./CHEM112_ASSIGNMENT.tex:321: Missing { inserted.
-<to be read again> 
-                   \unskip 
-l.321 		_ &
-            \ce{ClO2-} & \ce{TeCl4^{2-}} & \ce{PH2-} \\
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-./CHEM112_ASSIGNMENT.tex:321: Missing } inserted.
-<inserted text> 
-                }
-l.321 		_ &
-            \ce{ClO2-} & \ce{TeCl4^{2-}} & \ce{PH2-} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./CHEM112_ASSIGNMENT.tex:321: Missing $ inserted.
-<inserted text> 
-                $
-l.321 		_ &
-            \ce{ClO2-} & \ce{TeCl4^{2-}} & \ce{PH2-} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./CHEM112_ASSIGNMENT.tex:337: Missing $ inserted.
-<inserted text> 
-                $
-l.337 		_
-          & \ce{ClO2-} & \ce{TeCl4^{2-}} & \ce{PH2-} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./CHEM112_ASSIGNMENT.tex:337: Missing { inserted.
-<to be read again> 
-                   \unskip 
-l.337 		_ &
-            \ce{ClO2-} & \ce{TeCl4^{2-}} & \ce{PH2-} \\
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-./CHEM112_ASSIGNMENT.tex:337: Missing } inserted.
-<inserted text> 
-                }
-l.337 		_ &
-            \ce{ClO2-} & \ce{TeCl4^{2-}} & \ce{PH2-} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./CHEM112_ASSIGNMENT.tex:337: Missing $ inserted.
-<inserted text> 
-                $
-l.337 		_ &
-            \ce{ClO2-} & \ce{TeCl4^{2-}} & \ce{PH2-} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./CHEM112_ASSIGNMENT.tex:349: Argument of \ce  has an extra }.
-<inserted text> 
-                \par 
-l.349 ... $|\ce{B} - \ce{F}| > |\ce{P} - \ce{F}|$}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-./CHEM112_ASSIGNMENT.tex:349: Paragraph ended before \ce  was complete.
-<to be read again> 
-                   \par 
-l.349 ... $|\ce{B} - \ce{F}| > |\ce{P} - \ce{F}|$}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-./CHEM112_ASSIGNMENT.tex:349: You can't use `end-group character }' after \the.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.349 ... $|\ce{B} - \ce{F}| > |\ce{P} - \ce{F}|$}
-                                                  
-I'm forgetting what you said and using zero instead.
-
-./CHEM112_ASSIGNMENT.tex:349: You can't use `end-group character }' after \the.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.349 ... $|\ce{B} - \ce{F}| > |\ce{P} - \ce{F}|$}
-                                                  
-I'm forgetting what you said and using zero instead.
-
-./CHEM112_ASSIGNMENT.tex:349: You can't use `end-group character }' after \the.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.349 ... $|\ce{B} - \ce{F}| > |\ce{P} - \ce{F}|$}
-                                                  
-I'm forgetting what you said and using zero instead.
-
-./CHEM112_ASSIGNMENT.tex:349: You can't use `end-group character }' after \the.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.349 ... $|\ce{B} - \ce{F}| > |\ce{P} - \ce{F}|$}
-                                                  
-I'm forgetting what you said and using zero instead.
-
-./CHEM112_ASSIGNMENT.tex:349: Missing } inserted.
-<inserted text> 
-                }
-l.349 ... $|\ce{B} - \ce{F}| > |\ce{P} - \ce{F}|$}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./CHEM112_ASSIGNMENT.tex:349: Missing } inserted.
-<inserted text> 
-                }
-l.349 ... $|\ce{B} - \ce{F}| > |\ce{P} - \ce{F}|$}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./CHEM112_ASSIGNMENT.tex:349: Missing } inserted.
-<inserted text> 
-                }
-l.349 ... $|\ce{B} - \ce{F}| > |\ce{P} - \ce{F}|$}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./CHEM112_ASSIGNMENT.tex:349: Missing { inserted.
-<to be read again> 
-                   \group_end: 
-l.349 ... $|\ce{B} - \ce{F}| > |\ce{P} - \ce{F}|$}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-./CHEM112_ASSIGNMENT.tex:349: Missing } inserted.
-<inserted text> 
-                }
-l.349 ... $|\ce{B} - \ce{F}| > |\ce{P} - \ce{F}|$}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./CHEM112_ASSIGNMENT.tex:349: Missing { inserted.
-<to be read again> 
-                   \group_end: 
-l.349 ... $|\ce{B} - \ce{F}| > |\ce{P} - \ce{F}|$}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-./CHEM112_ASSIGNMENT.tex:349: Missing } inserted.
-<inserted text> 
-                }
-l.349 ... $|\ce{B} - \ce{F}| > |\ce{P} - \ce{F}|$}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./CHEM112_ASSIGNMENT.tex:349: Missing { inserted.
-<to be read again> 
-                   \group_end: 
-l.349 ... $|\ce{B} - \ce{F}| > |\ce{P} - \ce{F}|$}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-./CHEM112_ASSIGNMENT.tex:349: Missing } inserted.
-<inserted text> 
-                }
-l.349 ... $|\ce{B} - \ce{F}| > |\ce{P} - \ce{F}|$}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./CHEM112_ASSIGNMENT.tex:349: Missing } inserted.
-<inserted text> 
-                }
-l.349 ... $|\ce{B} - \ce{F}| > |\ce{P} - \ce{F}|$}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./CHEM112_ASSIGNMENT.tex:349: Missing { inserted.
-<to be read again> 
-                   }
-l.349 ... $|\ce{B} - \ce{F}| > |\ce{P} - \ce{F}|$}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-
-./CHEM112_ASSIGNMENT.tex:349: Package soul Error: Reconstruction failed.
-
-See the soul package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.349 ... $|\ce{B} - \ce{F}| > |\ce{P} - \ce{F}|$}
-                                                  
-I came across hyphenatable material enclosed in group braces,
-which I can't handle. Either drop the braces or make the material
-unbreakable using an \mbox (\hbox). Note that a space
-also counts as possible hyphenation point. See page 4 of the manual.
-I'm leaving a black square so that you can see where I am right now.
-
-./CHEM112_ASSIGNMENT.tex:373: Missing $ inserted.
-<inserted text> 
-                $
-l.373 	\chemright]^
-                   {2-}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./CHEM112_ASSIGNMENT.tex:374: Missing $ inserted.
-<inserted text> 
-                $
-l.374 	$\longleftrightarrow
-                           $
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./CHEM112_ASSIGNMENT.tex:377: Missing $ inserted.
-<inserted text> 
-                $
-l.377 	\chemright]^
-                   {2-}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./CHEM112_ASSIGNMENT.tex:378: Missing $ inserted.
-<inserted text> 
-                $
-l.378 	$\longleftrightarrow
-                           $
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./CHEM112_ASSIGNMENT.tex:381: Missing $ inserted.
-<inserted text> 
-                $
-l.381 	\chemright]^
-                   {2-}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-./CHEM112_ASSIGNMENT.tex:382: LaTeX Error: Command \end{center} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.382 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./CHEM112_ASSIGNMENT.tex:382: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.382 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./CHEM112_ASSIGNMENT.tex:382: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.382 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./CHEM112_ASSIGNMENT.tex:382: Missing $ inserted.
-<inserted text> 
-                $
-l.382 \end{center}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[4]
-Runaway argument?
-./CHEM112_ASSIGNMENT.tex:424: Paragraph ended before \\ was complete.
-<to be read again> 
-                   \par 
-l.424 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-./CHEM112_ASSIGNMENT.tex:425: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.425 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-Runaway argument?
-./CHEM112_ASSIGNMENT.tex:428: Paragraph ended before \\ was complete.
-<to be read again> 
-                   \par 
-l.428 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-[5] (./CHEM112_ASSIGNMENT.aux)
-Package rerunfilecheck Info: File `CHEM112_ASSIGNMENT.out' has not changed.
-(rerunfilecheck)             Checksum: 936723106F01020A13812535FF099294;984.
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 349 ({)
-### bottom level 
+] [2] [3] [4] (./main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+ ) 
 Here is how much of TeX's memory you used:
- 32618 strings out of 477985
- 685825 string characters out of 5840059
- 1963388 words of memory out of 5000000
- 52250 multiletter control sequences out of 15000+600000
- 522462 words of font info for 68 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 99i,24n,103p,473b,1014s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx12.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx8.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssmi10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssmi8.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmsssy10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmsssy8.pfb>
-Output written on CHEM112_ASSIGNMENT.pdf (5 pages, 160818 bytes).
+ 25722 strings out of 476000
+ 578521 string characters out of 5792233
+ 1936187 words of memory out of 5000000
+ 47407 multiletter control sequences out of 15000+600000
+ 567100 words of font info for 68 fonts, out of 8000000 for 9000
+ 59 hyphenation exceptions out of 8191
+ 99i,11n,107p,459b,533s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx12.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmssmi10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmsssy10.pfb></usr/share/texmf-dist/fonts/type1/public/sansmathfonts/cmsssy8.pfb>
+Output written on main.pdf (4 pages, 126084 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 75 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
