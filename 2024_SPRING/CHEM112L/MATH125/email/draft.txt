@@ -1,0 +1,30 @@
+Hey Dr. May:
+
+I was having fun doing some integration at a rave tonight and thought I'd give
+the $\int e^{-x^{2}} dx$ a try, and I actually got something. It may just be a 
+fluke because of mild intoxication, but I'm not seeing any issues and my 
+graphing calculator gives a suspiciously close answer given the calculator
+can't do symbolic math and just estimates it using a Taylor approximation.
+Here's the work:
+
+$E(x) = \int_{0}^{1} e^{-x^{2}}\,dx$
+$\Rightarrow$
+$E(t) = \int_{0}^{1} e^{-x^{t}}\,dx$
+$\Rightarrow$
+$E'(t) = \frac{d}{dt} \left(\int_{0}^{1} e^{-x^{t}}  \right)$
+$\Rightarrow$
+$\log{E'(t)} = \frac{d}{dt} \left(\int_{0}^{1} x^t \right)$
+$\Rightarrow$
+$\log{E'(t)} = \left[ -x^{-t} + C \right]^{1}_{0}$
+$\Rightarrow$
+$\log{E'(t)} = \left( -1^{-t} + C - 0^{-t} + C \right)$
+$\Rightarrow$
+$\log{E'(t)} = -(1)^{-t} = -1$
+$\Rightarrow$
+$E'(t) = e^{-1} = \frac{1}{e}$
+$\Rightarrow$
+$E(2) = \int_{0}^{2} \frac{1}{e}\,dt$
+$\Rightarrow$
+$E(2) = \left[ \frac{t}{e} + C \right]^{2}_{0}$
+$\Rightarrow$
+$E(2) = \frac{2}{e}$

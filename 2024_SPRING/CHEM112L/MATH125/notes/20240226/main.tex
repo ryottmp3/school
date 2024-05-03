@@ -1,0 +1,179 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[includehead, margin=0.75in]{geometry}
+\usepackage{fancyhdr}
+\usepackage[british]{babel}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage{soul}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage{siunitx}
+\usepackage{textgreek}
+\usepackage{xspace}
+\usepackage{lastpage}
+\usepackage{lipsum}
+\definecolor{error}{rgb}{255,255,0}
+\newcommand{\degree}{\ensuremath{{}^{\circ}}\xspace}
+
+\begin{document}
+
+\fancypagestyle{plain}{%
+\fancyhf{}%
+\fancyhead[L]{MATH 125---M03 \\ Dr. May}
+\fancyhead[R]{H. Ryott Glayzer \\ \today}%
+\fancyhead[C]{Notes \\ \textit{Convergence of Taylor Series}}%
+\fancyfoot[L]{\textsc{Notes \today}}%
+\fancyfoot[C]{\thepage~of~\pageref{LastPage}}
+\fancyfoot[R]{\textsc{Calc II with Dr. May}}
+}
+
+
+\title{10.9: Convergence of Taylor Series}
+\author{H. Ryott Glayzer}
+\date{\today}
+
+
+\maketitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+A Taylor Series for $f(x)$ centered at the point $a$ can be defined as
+\[
+	\sum_{n=0}^{\infty} \frac{f^{(n)}{(x)}}{n!}{(x-a)}^{n}
+\]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Example 1}
+Find the Taylor series for $f(x) = e^x$ centered at $a=0$.
+
+\[
+	\sum_{n=0}{\infty} \frac{x^n}{n!} 
+\]
+For what $x$ does $\sum\frac{x^n}{n!}$ converge?
+\[
+	\lim_{n\to\infty}\left| \frac{a_{n+1}}{a_n}  \right|
+	=
+	\lim_{n\to\infty} \left|\frac{x^{n+1}}{(n+1)!} \times \frac
+\]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Example 2}
+Taylor series for $f(x) = \log x$ centered at $a=1$
+
+\[
+	f(x) = \log x \;
+	f(1) = 0 \\
+\]
+\[
+	f'(x) = \frac{1}{x} \;
+	f'(1) = 1 \\
+\]
+\[
+	f''(x) = -x^-2 \;
+	f''(1) = -1 \\
+\]
+\[
+	f'''(x) = 2x^-3 \;
+	f'''(1) = 2 \\
+\]
+\[
+	f''''(x) = -3\times2x^-4 \;
+	f''''(1) = -6\\
+\]
+
+
+\[
+	f^{(n)}(1) = (-1)^{n+1}(n-1)!
+\]
+Thus
+\[
+	\sum_{n=1}{\infty} \frac{(-1)^{n+1}(n-1)!}{n!}(x-1)^n
+\]
+
+Does it converge?
+
+Because of the exponentials, it is good to use the ratio test
+\[
+	\lim_{n\to\infty} \left| \frac{(x-1)^{n+1}}{n+1}\times\frac{n}{(x-1)^n} \right|
+\]
+
+\[
+	\lim_{n\to\infty} \left| \frac{(x-1)n}{n+1}
+	\right| = \left| x-1 \right| < 1
+\]
+\[ 
+	-1 < x-1 < 1
+\]
+For $0<x<2$, this series converges absolutely.
+
+
+\subsection{Test Endpoints of absolute convergence}%
+Test the endpoints $x=0$
+\[
+	\sum_{n=1}^{\infty} \frac{(-1)^{n+1}(-1)^n}{n}
+\]
+\[
+	= -\sum_{n=1}^{\infty} \frac{(-1)^n(-1)^n}{n}
+\]
+\[
+	= -\sum_{n=0}^{\infty}\frac{1}{n}
+\]
+Thus diverges at $x=0$\\
+
+Test for $x=2$: Converges by alternating series test.\\
+
+Taylor Series converges for $0<x<=2$
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Quiz Review}
+
+I received a score of $\frac{15}{15}$ on my Chapter 10 Part 1 quiz.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Homework Assignment}
+
+The homework for today's lesson is 5 problems from chapter 10, section 9:
+Convergence of Taylor Series, on page 647 in the book.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                                 Copypasta                               %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Table for questions with multiple parts
+
+% \begin{center}
+% 	\begin{tabular}{|c|c|c|c|c|}
+% 		\hline
+% 		_ & _ & _ & _ & _ \\
+% 		\hline
+% 		_ & _ & _ & _ & _ \\
+% 		\hline
+% 	\end{tabular}
+% \end{center}
