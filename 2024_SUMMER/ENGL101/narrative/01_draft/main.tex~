@@ -4,15 +4,14 @@
 %Margin - 1 inch on all sides
 %
 \usepackage[letterpaper]{geometry}
-\usepackage{kpfonts}
+\usepackage{times}
 \geometry{top=1.0in, bottom=1.0in, left=1.0in, right=1.0in}
-\usepackage[T1]{fontenc}
-\usepackage[utf-8]{inputenc}
+
 %
 %Doublespacing
 %
 \usepackage{setspace}
-\doublespacing%
+\doublespacing
 
 %
 %Rotating tables (e.g. sideways when too long)
@@ -37,6 +36,14 @@
 %12pt is one-sixth of an inch. Subtract this from 0.5in to get headsep value
 \setlength\headsep{0.333in}
 
+%
+%Works cited environment
+%(to start, use \begin{workscited...}, each entry preceded by \bibent)
+% - from Ryan Alcock's MLA style file
+%
+\newcommand{\bibent}{\noindent \hangindent 40pt}
+\newenvironment{workscited}{\newpage \begin{center} Works Cited \end{center}}{\newpage }
+
 
 %
 %Begin document
@@ -46,15 +53,14 @@
 
 %%%%First page name, class, etc
 H. Ryott Glayzer\\
-Dr.\ Herrick\\
+Dr. Herrick\\
 ENGL 101 MT1\\
 10 May 2024\\
 
 
 %%%%Title
 \begin{center}
-	\large Wanáǧi-Tȟačháŋu Máni Mitȟáŋ\\ 
-	\scriptsize \textit{(My Little Sister Walks the Spirit Path)}
+Kymberlyn's Death Story
 \end{center}
 
 
@@ -68,9 +74,9 @@ ENGL 101 MT1\\
 The stars were out that night as I lost myself in the grass, beating my chest and gnashing my teeth.
 It’s interesting how those actions seem so odd when you read about them in the Bible,
 but when shit actually hits the fan, it’s some sort of primal instinct.
-% As difficult as things had been leading up to this,
-% things were going to be much more difficult going forward.
-\vspace{5mm}
+As difficult as things had been leading up to this,
+things were going to be much more difficult going forward.
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -92,25 +98,21 @@ but when shit actually hits the fan, it’s some sort of primal instinct.
 % Back to before she died
 I had just finished up at the county administration building
 getting my new truck registered.
-% The truck was legally mine, but in all reality it is my wife’s truck.
-% I hadn’t driven there, though.
-% I biked there, like I do most places.
-% The line was long now and squeezing past the lines of tired-eyed people
-% who definitely did not want to be there was a task in and of itself.
-% Nevertheless, I squished past the last dreary-eyed person and hustled out the door.
+The truck was legally mine, but in all reality it is my wife’s truck.
+I hadn’t driven there, though.
+I biked there, like I do most places.
+The line was long now and squeezing past the lines of tired-eyed people
+who definitely did not want to be there was a task in and of itself.
+Nevertheless, I squished past the last dreary-eyed person and hustled out the door.
 My mom and grandma were in the parking lot,
 they wanted to meet with me before they took my sister to the hospital.
 She had been sick for a couple days, and she wasn’t getting better.
-Her doctor had tested her for strep, mono, and a battery of other sicknesses,
-but they all had come back negative.
-She had a plethora of disabilities that worked together to make
-her immune system really weak, so any illness was scary.
-%%% Maybe now I can drop the immune comp part
-% I needed to use my mom’s car to go get my wife’s truck,
-% so she dropped off her car with me before taking my sister to the hospital.
-% When I got to them, my mom and grandma were both crying and looked really worried.
-% My sister was immune compromised and they were worried because she was just so sick.
-She had been sick for a few days and it just kept getting worse.
+She had been tested for strep, mono, and a battery of other sicknesses,
+they all had come back negative.
+I needed to use my mom’s car to go get my wife’s truck,
+so she dropped off her car with me before taking my sister to the hospital.
+When I got to them, my mom and grandma were both crying and looked really worried.
+My sister was immune compromised and they were worried because she was just so sick.
 I was confident, however, that my sister was just fine and that she would pull
 through this like she pulled through everything else.
 This little girl had gone through 20 surgeries in her twelve years of life,
@@ -127,49 +129,20 @@ I let go of her because they really needed to go to the hospital.
 Looking back, I am glad that I took the time to tell her that,
 and to give her a hug and a kiss.
 That was the last time I saw my twelve year-old sister. 
-\vspace{5mm}
 
-
-% That night, I went home with my mom’s car and my wife went home with her new truck.
-% We had been living in our bus, but with Kymberlyn in the hospital,
-% my mom wanted us to watch the pets.
-% That was fine by me, my mom’s house is much closer to Mines than where the bus was parked,
-% and it has running water.
-% So we went, packed up our four cats and our stuff and moved into my mom’s house.
-% We thought we would be there for a week at most.
-
-
-After my sister went to the ER, she took a turn for the worse.
-Her liver and kidneys were failing and the was in a lot of pain.
-It didn't take long for her to start being sassy to the nurses, 
-who decided to give her a downer to `calm her down' because she was cussing too mush.
-Suddenly, she lost her vision.
-The medicine the nurse gave her to shut her up had damaged her liver even more,
-to the point that she went blind and mostly unresponsive.
-It was soon that she started showing symptoms of pneumonia as well.
-Monument Health decided, after damaging her liver and calling my mother
-a bad parent for crying too much to comfort her child, that they couldn't 
-provide the level of specialist emergency care that Kymberlyn needed and 
-called for the life flight to take her to a specialist hospital in Omaha, NE\@.
-\vspace{5mm}
-
-
-I was devastated.
-Because I was the oldest and most responsible sibling,
-I had to stay behind and watch my younger brother and the pets.
-%%%%%% I had  to take my grandpa to the ER and fell asleep revising
-Over the course of the next four days,
-her health only seemed to get worse.
-The doctors worked tirelessly day and night to save her.
-
-
-
-% It was midterms and I was neck-deep in studying for exams.
-% But I was worried.
-% It seemed like every couple minutes something else would go horribly wrong.
-% Her liver and kidneys were failing and she was in and out of consciousness.
-% That same night, she was life-flighted out to
-% Omaha, NE because she just wasn’t getting better.
+That night, I went home with my mom’s car and my wife went home with her new truck.
+We had been living in our bus, but with Kymberlyn in the hospital,
+my mom wanted us to watch the pets.
+That was fine by me, my mom’s house is much closer to Mines than where the bus was parked,
+and it has running water.
+So we went, packed up our four cats and our stuff and moved into my mom’s house.
+We thought we would be there for a week at most.
+It was midterms and I was neck-deep in studying for exams.
+But I was worried.
+It seemed like every couple minutes something else would go horribly wrong.
+Her liver and kidneys were failing and she was in and out of consciousness.
+That same night, she was life-flighted out to
+Omaha, NE because she just wasn’t getting better.
 She was eventually put on life support and even went blind.
 Nothing seemed to help.
 The hospital told us it was Influenza B
@@ -182,13 +155,11 @@ She held on strong over the weekend,
 while the hospital in Omaha tried everything they could to save her.
 I had a small tour planned for spring break with my band.
 With Kymberlyn as my courage, I decided to play two shows,
-one in Aberdeen SD and the other in Rapid City SD\@.
+one in Aberdeen SD and the other in Rapid City SD.
 All throughout the Aberdeen show, Kymberlyn seemed to be getting a little bit better.
 She started on ECMO, a treatment like dialysis, and it seemed to be working.
 The doctors told us that she had less than a 50\% chance of surviving that treatment.
 Sadly, they were right. 
-\vspace{5mm}
-
 
 That night, I was getting ready to say down to sleep
 after the concert when I got a call from my grandma.
@@ -235,8 +206,6 @@ sister would have been so grateful that I stayed behind to watch her puppies.
 In the meantime, my friend Ti had grabbed my gun and holster and put it in the trailer.
 We were all crying.
 Kymberlyn meant the world to all of us. 
-\vspace{5mm}
-
 
 In that moment, hundreds of miles away from where I was,
 my sister took her last breath surrounded by her closest family
@@ -251,3 +220,4 @@ Our lives will never be the same.
 
 \end{flushleft}
 \end{document}
+
