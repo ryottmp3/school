@@ -1,0 +1,102 @@
+\documentclass[
+10pt, % Main document font size
+letterpaper, % Paper type, use 'letterpaper' for US Letter paper
+oneside, % One page layout (no page indentation)
+%twoside, % Two page layout (page indentation for binding and different headers)
+footinclude, % Extra spacing for the header and footer
+BCOR5mm, % Binding correction
+]{scrartcl}
+
+\input{structure.tex} % Include the structure.tex file which specified the document structure and layout
+
+\hyphenation{Fortran hy-phen-ation} % Specify custom hyphenation points in words with dashes where you would like hyphenation to occur, or alternatively, don't put any dashes in a word to stop hyphenation altogether
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND SUBTITLE
+%----------------------------------------------------------------------------------------
+
+\title{\normalfont\fontsize{20}{10}\selectfont \spacedlowsmallcaps{H. Ryott Glayzer}} % The article title
+
+\subtitle{%
+    Lab Assistant, Physics Dept. -- SD Mines\\
+    306 East Saint Joseph Street\\
+    Rapid City, South Dakota 57701\\
+    \href{mailto:h.ryott.glayzer@ryott.gay}{h.ryott.glayzer@ryott.gay} \\
+    +1 (605) 858-3899
+} % Uncomment to display a subtitle
+
+\date{} % An optional date to appear under the author(s)
+
+%----------------------------------------------------------------------------------------
+\usepackage[verbose]{geometry}
+\geometry{top=25pt, left=70pt, right=70pt,
+  textwidth=450pt,textheight=900pt,
+  heightrounded}
+
+% Commands for parts of the letter
+\newcommand{\ToAddr}[1]{\noindent For:\\ #1}
+
+\newcommand{\LetterDate}[1]{\noindent#1\par\vspace{2em}}
+
+\newcommand{\Subject}[1]{\hangindent=2em\hangafter=0\justifying\textbf{Sub: #1}\par\vspace{0.5em}}
+
+\newcommand{\Opening}[1]{\justifying #1\par\vspace{1em}}
+
+\newcommand{\Sign}[1]{\vspace{2em}\noindent Sincerely,\\ #1\par\vspace{0.5em}}
+
+\begin{document}
+
+\maketitle % Print the title/author/date block
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT
+%----------------------------------------------------------------------------------------
+\vspace{-4em}
+
+\LetterDate{\today}
+\vspace{-0.8em}
+\ToAddr{%
+    Tony Long Wolf,\\
+    Elder, Oáye Lúta Okȟólakičhiye\\
+    937 East North Street, Suite 401\\
+    Rapid City, SD, 57701.\\}
+
+
+%----------------------------------------------------------------------------------------
+%   Letter Body
+%----------------------------------------------------------------------------------------
+
+\noindent Dear Tony:
+\vspace{5mm}
+%   Introduction and Thesis Statement
+
+I am writing you to request an interview regarding your life as a Lakota elder.
+This interview is part of a profile piece for my Composition 101 class at SD Mines.
+I wanted to do my profile piece on a Lakota elder because elders are so important
+in our culture.
+\vspace{5mm}
+
+The interview will take around an hour and can take place wherever works for both of us.
+I will have some prepared questions that will cover a range of subjects.
+These subjects include how you have worked to stay sacred while living in western culture,
+how you use Lakota wisdom and traditions to work through hardships, 
+some basic background questions, and more.
+I plan on recording this interview so I can refer back to it when writing my profile piece.
+\vspace{5mm}
+
+If you are interested in doing this interview, you can contact me using the
+information at the head of this letter.
+I am available on Friday, 17 May before 10:30 AM or after 1 PM, or anytime throughout the weekend.
+
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%   Signature
+%----------------------------------------------------------------------------------------
+\Sign{H. Ryott Glayzer}
+\noindent\includegraphics[scale=2.5]{signature.png}
+\end{document}
