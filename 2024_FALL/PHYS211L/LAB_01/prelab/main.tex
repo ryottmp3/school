@@ -4,6 +4,7 @@
 \usepackage[includehead, margin=0.75in]{geometry}
 \usepackage{fancyhdr}
 \usepackage[british]{babel}
+\usepackage{esvect}
 \usepackage{amsmath}
 \usepackage{amsthm}
 \usepackage{amssymb}
@@ -11,6 +12,7 @@
 \usepackage{soul}
 \usepackage{color}
 \usepackage{colortbl}
+\usepackage{graphicx}
 \usepackage{siunitx}
 \usepackage{textgreek}
 \usepackage{xspace}
@@ -93,11 +95,25 @@ The particle has zero acceleration at the time $t=0$.
 
 \section{Particle Motion given by displacement.}
 
+\subsection{Constant Velocity by Kinematics}
+Given $\Delta x_{1 s} = 14$ and $\Delta x_{2s} = 42$, as well as the assumption of a 
+constant velocity, we can take 
+\begin{equation}
+	\vv{v} = \frac{\vv{\Delta x}}{\Delta t}
+\end{equation}
+and input the values 
+\begin{equation}
+	\vv{v} = \frac{42-14 \;m}{2-1 \;s}
+\end{equation}
+to find 
+\begin{equation}
+	\vv{v} = 28 \;m/s
+\end{equation}
 
+\subsection{Plotting the data}
+\includegraphics{plot_2a.png}
 
-
-
-
+This plot does reflect my earlier predictions.
 
 
 
