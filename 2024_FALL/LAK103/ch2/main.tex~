@@ -1,0 +1,137 @@
+\documentclass[11pt, letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[includehead, margin=0.75in]{geometry}
+\usepackage{fancyhdr}
+\usepackage[british]{babel}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage{soul}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage{siunitx}
+\usepackage{textgreek}
+\usepackage{xspace}
+\usepackage{lastpage}
+\usepackage{lipsum}
+\definecolor{error}{rgb}{255,255,0}
+\newcommand{\degree}{\ensuremath{{}^{\circ}}\xspace}
+
+\begin{document}
+
+\fancypagestyle{plain}{%
+\fancyhf{}%
+\fancyhead[L]{LAK 103 \\ Tuŋwiŋ Dolly Red Elk}
+\fancyhead[R]{H. Ryott Glayzer \\ \today}%
+\fancyhead[C]{Homework Chapter 2}%
+\fancyfoot[L]{\textsc{Thiyata-Wowaši Nuŋpa}}%
+\fancyfoot[C]{\thepage~of~\pageref{LastPage}}
+\fancyfoot[R]{\textsc{Lakȟotiyapi I}}
+}
+
+
+\title{Thiyata-Wowaši Nuŋpa}
+\author{H. Ryott Glayzer}
+\date{\today}
+
+
+\maketitle
+
+\section{Vocabulary}
+\begin{table}[]
+\begin{tabular}{llll}
+\cline{1-2}
+\textbf{Lakȟotiyapi} & \textbf{English} & \textbf{Lakȟotiyapi} & \textbf{English}      \\ \cline{1-2}
+taku                 & what             & tokel                & how                   \\
+hena                 & those near you   & el                   & at                    \\
+taŋhaŋ               & from a place     & miye                 & me                    \\
+nis                  & you              & caje                 & reputation/name       \\
+uŋ                   & he is            & kiŋ                  & the                   \\
+eciyapi              & they call him    & tokiya               & where to              \\
+na                   & and              & hiya                 & no                    \\
+tuktel               & where            & ti                   & he lives (in a place) \\
+hi                   & he is here       & tuwa                 & who                   \\
+hecetu               & the way it is    & niye                 & you                  
+\end{tabular}
+\end{table}
+
+\section{Translation}
+\subsection{Taku eničiyapi he?}
+What is your name? / What are you called?
+\subsection{Taku eciyapi he?}
+What is he/she/it called?
+\subsection{Mary ečiyapi ye.}
+I am called Mary
+\subsection{Nituwe he?}
+Who are you?
+\subsection{John miye yelo.}
+I am John.
+\subsection{He tuwe he?}
+Who is that, near you?
+\subsection{Tuktel ti he?}
+Where does he/she/it live?
+\subsection{Pajola Otoŋwaheta ti ye.}
+He lives in Martin.
+\subsection{Tuktel yati he?}
+Where do you live?
+\subsection{Mni Luzahaŋ Wakpa Otoŋwahe el wati ye.}
+I live in Rapid City.
+\subsection{Caŋkpe Opi el tipi ye.}
+His house is in Wounded Knee.
+\subsection{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                                 Copypasta                               %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Table for questions with multiple parts
+
+% \begin{center}
+% 	\begin{tabular}{|c|c|c|c|c|}
+% 		\hline
+% 		_ & _ & _ & _ & _ \\
+% 		\hline
+% 		_ & _ & _ & _ & _ \\
+% 		\hline
+% 	\end{tabular}
+% \end{center}
