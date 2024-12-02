@@ -88,6 +88,8 @@ def main():
     # do a regression
     run_time = running["Time (s) Run #1"]
     run_pos = running["Position (m) Run #1"]
+    run_vel = running["Velocity (m/s) Run #1"]
+    run_accel = running["Acceleration (m/s²) Run #1"]
 
     quad_model = np.poly1d(np.polyfit(run_time, run_pos, 2))
     print(quad_model)
@@ -117,6 +119,46 @@ def main():
     plt.title("Kinematics of a Running Student")
     plt.xlabel("Time (sec)")
     plt.ylabel("Position (meters)")
+    plt.legend()
+    plt.show()
+
+    # Plot measured instantaneous acceleration vs time
+    plt.scatter(
+        run_time,
+        run_accel,
+        color="green",
+        label="Instantaneous Acceleration"
+    )
+    plt.plot(
+        run_time,
+        run_accel,
+        color="green"
+    )
+    plt.scatter(
+        run_time,
+        run_vel,
+        color="orange",
+        label="Instantaneous Velocity"
+    )
+    plt.plot(
+        run_time,
+        run_vel,
+        color="orange"
+    )
+    plt.scatter(
+        run_time,
+        run_pos,
+        color="dodgerblue",
+        label="Instantaneous Position"
+    )
+    plt.plot(
+        run_time,
+        run_pos,
+        color="dodgerblue"
+    )
+    plt.title("Instantaneous Kinematics of a Running Student")
+    plt.xlabel("Time (sec)")
+    plt.ylabel("Acceleration (m/s^2), Velocity (m/s), and Position (m)")
     plt.legend()
     plt.show()
 
