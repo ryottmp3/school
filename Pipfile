@@ -4,12 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-matplotlib = "*"
 pandas = "*"
 numpy = "*"
 scikit-learn = "*"
 scipy = "*"
 pygobject = "*"
+matplotlib = "*"
+pyqt6 = "*"
 
 [dev-packages]
 

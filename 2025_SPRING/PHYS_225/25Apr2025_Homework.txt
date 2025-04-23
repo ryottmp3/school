@@ -1,0 +1,9 @@
+Do the following problem based on 4/16 class material:
+
+25-1) A beam of polarized light is sent through a system of two polarizing sheets.  Relative to the direction of that incident light, the polarizing directions of the sheets are at angles θ for the first sheet and 90° for the second sheet.  If 10% of the incident intensity is transmitted by the two sheets, what is θ?
+
+Plus the following problem based on 4/23 class material:
+
+25-2) a) Young’s double-slit experiment breaks a single light beam into two sources. Would the same pattern be obtained for two independent sources of light, such as the headlights of a distant car?  Explain.
+
+b) Is it possible to create a experimental setup in which there is only destructive interference?  Explain.
