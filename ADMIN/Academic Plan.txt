@@ -1,0 +1,70 @@
+Academic Plan
+
+SP2021
+	POLS100		B	American Government
+	
+FA2021
+	CHEM112		F	General Chemistry I
+	ENGL101		F	Composition I
+	MATH123		F	Calculus I
+	MUS117		C	Jazz Ensemble
+	PHYS119		C	Physics Seminar
+	SOC100		F	Intro to Sociology
+	
+SP2022
+	CSC170		F	Programming
+	CSC170L		LR	Programming Lab
+	ENGL101		F	Composition
+	MATH123		F	Calculus I
+	MUS117		F	Jazz Ensemble
+	POLS165		C	Political Ideologies
+	
+SP2023
+	MATH123		D	Calculus I
+	
+SP2024
+	CHEM112		B	General Chemistry I
+	CHEM112L	A	General Chemistry I Lab
+	MATH125		A	Calculus II
+
+SU2024
+	ENLG101		A	Composition			[ONLINE ASYNC]
+
+FA2024
+	LAK133		A	Lakota Language I
+	MATH225		B	Calculus III
+	MUS117		A	Jazz Ensemble
+	PHYS211		B	University Physics I
+	PHYS211L	F	University Physics I Lab
+
+SP2025
+	LAK233		A	Lakota Language II
+	MUS117 		B	Jazz Ensemble			[MW]	[1700-1815]
+	PHYS213		C	University Physics II		[MTWF]	[1100-1150]
+	PHYS213L	WD	University Physics II Lab 	[R] 	[1100-1350]
+	PHYS225		C	Vibrations, Waves, & Optics	[MWF]	[1300-1350]
+
+SU2025
+	MATH321			Differential Equations 		[ONLINE ASYNC]
+	
+FA2025
+	MATH381			Intro to Prob & Stats		[MWF]	[1200-1250]	(Might Drop)
+	MUS117			Jazz Ensemble			[MW]	[1700-1815]
+	PHYS331			Intro to Modern Physics		[MWF]	[0900-0950]
+	PHYS341			Thermodynamics			[TR]	[0900-1050]
+	PHYS343			Statistical Physics		[TR]	[0900-1050]
+
+SP2026
+	MATH315			Linear Algebra			[MWF]	[0900-0950]
+	MUS117			Jazz Ensemble			[MW]	[1700-1815]
+	PHYS421			Electromagnetism		[TR]	[0900-1050]
+	PHYS471			Quantum Mechanics		[TR]	[1100-1250]
+
+SU2026
+	ENGL279			Comm in STEM Workplace
+	
+FA2026
+	MUS117			Jazz Ensemble
+	PHYS361			Optics
+	PHYS312			Experimental Design
+	
