@@ -1,0 +1,19 @@
+16-1) The electric field associated with a plane electromagnetic wave is given by Ex=0, Ey=0, and Ez=Eosink(x+ct), where Eo= 234 μV/m and k = 9.72 x 106  m-1.
+(a) In what direction is the wave propagating?
+
+(b) Write expressions for all three components of the magnetic field of the wave.
+
+(c) What is the wavelength of the wave?
+
+16-2) Suppose that a plane electromagnetic wave has an electric field which is polarized in the x-direction and is traveling in free space in the negative z-direction. The wave has a frequency of 91.3 MHz (yes, this is the carrier frequency of that great radio station KTEQ--FM!) and an amplitude of 7.20 mV/m.
+(a) Write down the complete expression for the E-field which will enable you to find the value of the E-field at any point in space at any time. i.e., the only unknown quantities in your expression should be x, y, z and t. The directions of the vectors should be given in terms of the standard unit vectors i, j, k.
+
+(b) What is the corresponding complete expression for the B-field?
+
+(c) What is the wavelength of this radio wave?
+
+Plus, do the following two problems based on 4/14 class material (CO9):
+
+16-3) The year is 2050 and you are the commander of a spaceship that is going where no one has gone before, which is on a trip to the inner planets of the solar system. Unfortunately, something has happened which has never happened before either, which is a total shut-down of the power system due to a computer malfunction (caused by a bug in Windows 2049). You and your crew are aware that the gravitational field of the sun will slowly attract the ship until it is burned up in the heat. The crew looks to you to find a solution, since you are the only one who handed in all your college physics homework assignments, and hence are most likely to know what to do in a crisis. You think furiously about possible ways out of the predicament. You remember that electromagnetic radiation creates pressure, and you wonder if pressure due to radiation from the sun could be used to counteract the gravitational force. You do some calculations to see if you have enough material to make a sail big enough to create sufficient force. What is the minimum surface area of the sail that you will need to counteract the gravitational effects of the sun? The spaceship has a mass of 25 metric tons. Fortunately, your college physics textbook is implanted in your fingernail, and that has all the other information you need.
+
+16-4) A laser beam of power 4.60 W and diameter 2.60 mm is directed upward at one circular face (of diameter d < 2.60 mm) of a perfectly reflecting cylinder, which is made to hover by the beam’s radiation pressure.  The cylinder’s density is 1.20 g/cm3.  What is the cylinder’s height h?

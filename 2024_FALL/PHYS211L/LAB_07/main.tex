@@ -1,0 +1,110 @@
+\documentclass[hidelinks, 12pt, letterpaper]{article}
+\usepackage[margins=0.25in]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usepackage[unicode]{hyperref}
+\usepackage[all]{hypcap}
+\usepackage{fancyhdr}
+
+\usetikzlibrary{angles,calc, decorations.pathreplacing}
+
+\definecolor{carminered}{rgb}{1.0, 0.0, 0.22}
+\definecolor{capri}{rgb}{0.0, 0.75, 1.0}
+\definecolor{brightlavender}{rgb}{0.75, 0.58, 0.89}
+
+\title{\textbf{Lab 7:  Work Energy Theorem}\\PHYS 211L}
+\author{H. Ryott Glayzer\\Collaborators: Tristen and the Fruit Trees}
+\date{\today}
+\begin{document}
+\hypersetup{bookmarksnumbered=true,}
+
+\maketitle
+
+\begin{Large}
+\tableofcontents
+\end{Large}%
+\pagebreak
+
+\section*{Prelab}
+\subsection*{3}
+
+\section{Introduction}
+In this lab, we use an air-track and cart system to study the work-energy theorem. The tension in the string, $T$, is a constant force that performs work on the cart and changes its kinetic energy.
+
+The work-energy theorem is expressed as:mw
+\begin{equation}
+W_{\text{net}} = \Delta K = K_f - K_0
+\end{equation}
+
+The work $W$ is defined as:
+\begin{equation}
+W = F d \cos \theta
+\end{equation}
+where $F$ is the applied force in the direction of displacement, $d$ is the displacement, and $\theta$ is the angle between the force and displacement vectors. The kinetic energy $K$ is given by:
+\begin{equation}
+K = \frac{1}{2} m v^2
+\end{equation}
+
+For this experiment, the work-energy theorem simplifies to:
+\begin{equation}
+F d = \frac{1}{2} m v_f^2 - \frac{1}{2} m v_0^2
+\end{equation}
+where $F$ is the force due to gravity acting on the hanging mass $m_2$. This force is opposed by the normal force on $m_1$, so we only consider gravity's effect on $m_2$.
+
+\section{Procedure}
+1. Start with the work-energy theorem given in the introduction and derive the final velocity $v_f$ after a displacement $d$:
+\begin{equation}
+    v_f = \sqrt{2dg \left( \frac{m_2}{m_1 + m_2} \right) + v_0^2}
+\end{equation}
+
+2. Open PASCO software and select \textit{Classic Templates}. Set up a table and graph to record position and velocity vs. time. Use time as the independent variable (x-axis) and position as the dependent variable (y-axis). Add an additional column for velocity.
+
+3. Measure and record the mass of the cart $m_1$ using the lab scale.
+
+4. Select a mass and attach it to the hook. Include the hook's mass in your measurement of $m_2$.
+
+5. Pull the cart back, turn on the air-track, and release the cart while recording data. Ensure your graph resembles a straight, upward-trending line. If not, check your setup and repeat the trial.
+
+6. Copy and paste the columns (time, position, velocity) into Excel.
+
+7. In Excel, plot velocity vs. time. Identify a range where velocity decreases linearly and delete extraneous data, leaving only the data for the linear range.
+
+8. Fit a linear trendline to the velocity vs. time data.
+
+9. Repeat steps 4-8 for two additional masses, differing by at least 50g (e.g., 50g, 100g, and 150g).
+
+10. Predict the final velocity $v_f$ for each mass $m_2$ using the derived equation from step 1. Use position data to determine displacement $d$ and velocity data to find $v_0$.
+
+11. Perform error analyses comparing the calculated final velocities with the experimental final velocities.
+
+\section{Data and Plots}
+
+\section{Error Analysis}
+\subsection{50 Grams}
+\subsection{100 Grams}
+\subsection{150 Grams}
+
+\section{Results}
+
+
+
+
+\section{Questions}
+1. How can the trendline from the velocity vs. time plot and the position vs. time data be used to determine the displacement of the cart without subtracting the final position value from the initial position value?
+
+\textbf{Hint:} The displacement can be found by integrating the velocity over time.
+
+\vspace{0.5cm}
+\noindent\textbf{Notes:}
+\begin{itemize}
+    \item Displacement $d$ is given by $d = \Delta x = x_f - x_0$.
+    \item Initial velocity $v_0$ corresponds to the first velocity value recorded.
+\end{itemize}
+
+\section{Conclusion}
+\textit{(Summarize your results and discuss whether they support the work-energy theorem. Include error analysis and address discrepancies.)}
+
+\end{document}
+
